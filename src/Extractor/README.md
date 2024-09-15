@@ -2,7 +2,7 @@
 
 ## Overview
 
-This project is a helper tool to assist in converting excel spreadsheets into json files for easier handling of data in other BlueEthicsProject tools. This project is a command line tool that takes a number of parameters.
+This project is a helper tool to assist in converting excel spreadsheets into JSON files for easier handling of data in other BlueEthicsProject tools. This project is a command line tool that takes a number of parameters.
 
 -o, --output-path    Required. Directory to save output file.
 -f, --file           Required. Excel file to be parsed.
@@ -21,7 +21,7 @@ This project is a helper tool to assist in converting excel spreadsheets into js
 
 ## Contributing
 
-This project is intended to take xlsx or xls files and parse them to JSON. The way it does this is through the IExcelParser interface. Each concrete implementation of the IExcelParser is intended to pair up with an excel spreadsheet format. Since these excel spreadsheets are typically responsive records to a FOIA (freedom of information act) request, the government entity can respond with any format of file or spreadsheet that they wish. This tool is to help consolidate all this data into a common json data format. This common JSON data format is represented in this repository in `Record.cs`. All current concrete implementations of IExcelParser is located in the `./Parsers` directory. If you encounter a new format, please create a new concrete implementation in `./Parsers`.
+This project is intended to take XLSX or XLS files and parse them to JSON. The way it does this is through the IExcelParser interface. Each concrete implementation of the IExcelParser is intended to pair up with an excel spreadsheet format. Since these excel spreadsheets are typically responsive records to a FOIA (freedom of information act) request, the government entity can respond with any format of file or spreadsheet that they wish. This tool is to help consolidate all this data into a common JSON data format. This common JSON data format is represented in this repository in `Record.cs`. All current concrete implementations of IExcelParser is located in the `./Parsers` directory. If you encounter a new format, please create a new concrete implementation in `./Parsers`.
 
 ## LICENSE
 
