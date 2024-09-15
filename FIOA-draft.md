@@ -4,10 +4,6 @@ If access to the records I requested is going to take longer than 14 business da
 If you choose to deny the request in whole or in part, then you are required to respond in writing and state the statutory exception authorizing the withholding of all or part of the public record and the name and title or position of the person responsible for the denial.
 
 
-
-
-
-
 Pursuant to the Texas Public Information Act (Texas Government Code, Chapter 552), I would like to obtain copies of the following public records:
 I am requesting the number of calls, reports, complaints, and anonymous tips submitted to the Animal Services Division with concerns to licenseing of animals in the City of Bedford since January 2019. I am also requesting the number of calls that resulted: in officer contact with possible animal owners, investigations conducted, notice of violations posted, and fines issued since January of 2019. I understand that if I seek a copy of these records, there may be a copying fee. Please inform me of that cost prior to making the copy with an itemized detailed quote. When determining the charge for this request, please consider that the information being requested will be distributed to the benefit of the general public(552.267). I can be reached at (972) 375 - 4431 or at timothysturm6@gmail.com.
 If access to the records I requested is going to take longer than 14 business days, please contact me so we can work out a reasonable delivery.

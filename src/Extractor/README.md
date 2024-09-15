@@ -14,10 +14,10 @@ This project is a helper tool to assist in converting excel spreadsheets into js
 
 ### Examples
 
-`dotnet run -- --file "../../data/Jan2024/20240119_Complaints.xls" --parser "Jan24Roster1" --worksheet "report" -o "../../data/Officers"`
-`dotnet run -- --file "../../data/Jan2024/20240119_Complaints.xls" --parser "Jan24Complaints" --worksheet "records" -o "../../data/Officers"`
-`dotnet run -- --file "../../data/Jan2024/20240119_PDEmployeeRoster.xls" --parser "Jan24Roster1" -o "../../data/Officers"`
-`dotnet run -- --file "../../data/Jan2024/20240119_EmployeeRosterPolice.xls" --parser "Jan24Roster2" -o "../../data/Officers"`
+`dotnet run -- --file "../../data/TEXAS/Bedford/data/Jan2024/20240119_Complaints.xls" --parser "Jan24Roster1" --worksheet "report" -o "../../data/TEXAS/Bedford/data/Officers"`
+`dotnet run -- --file "../../data/TEXAS/Bedford/data/Jan2024/20240119_Complaints.xls" --parser "Jan24Complaints" --worksheet "records" -o "../../data/TEXAS/Bedford/data/Officers"`
+`dotnet run -- --file "../../data/TEXAS/Bedford/data/Jan2024/20240119_PDEmployeeRoster.xls" --parser "Jan24Roster1" -o "../../data/TEXAS/Bedford/data/Officers"`
+`dotnet run -- --file "../../data/TEXAS/Bedford/data/Jan2024/20240119_EmployeeRosterPolice.xls" --parser "Jan24Roster2" -o "../../data/TEXAS/Bedford/data/Officers"`
 
 ## Contributing
 
