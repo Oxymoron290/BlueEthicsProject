@@ -3,9 +3,18 @@ using System;
 using System.Collections.Generic;
 using System.IO;
 using System.Linq;
+using Microsoft.Extensions.Logging;
 
 public class Consolidator
 {
+    private readonly ILogger<Consolidator> _logger;
+    private Dictionary<Record, bool> ambiguousRecords = new Dictionary<Record, bool>();
+
+    public Consolidator(ILogger<Consolidator> logger)
+    {
+        _logger = logger;
+    }
+
     public List<Record> Consolidate(List<string> jsonFilePaths)
     {
         var allRecords = new List<Record>();
@@ -27,15 +36,33 @@ public class Consolidator
         foreach (var record in allRecords)
         {
             // Find any existing group where the record matches based on names
-            var matchingGroup = groupedRecords.FirstOrDefault(group =>
-                group.Any(existingRecord =>
-                    NamesMatch(existingRecord.FirstName, record.FirstName, existingRecord.LastName, record.LastName)
+            var matchingGroups = groupedRecords
+                .Where(group =>
+                    group.Any(existingRecord =>
+                        IsInitialOrFullNameMatch(record.FirstName, existingRecord.FirstName) &&
+                        existingRecord.LastName.Equals(record.LastName, StringComparison.OrdinalIgnoreCase)
+                    )
                 )
-            );
+                .ToList();
 
-            if (matchingGroup != null)
+            if (matchingGroups.Any())
             {
-                matchingGroup.Add(record); // Add to existing group
+                var warning = "";
+                if(matchingGroups.Count() > 1){
+                    ambiguousRecords[record] = true;
+                    warning += $"WARNING: Ambiguity for {record.FirstName} {record.LastName}\nPossible Matches:\n";
+                }
+                // Add the record to all matching groups
+                foreach (var matchingGroup in matchingGroups)
+                {
+                    if(matchingGroups.Count() > 1){
+                        warning += $"\t{matchingGroup.FirstOrDefault().FirstName} {matchingGroup.FirstOrDefault().LastName}\n";
+                    }
+                    matchingGroup.Add(record);
+                }
+                if(matchingGroups.Count() > 1){
+                    _logger.LogWarning(warning);
+                }
             }
             else
             {
@@ -44,23 +71,7 @@ public class Consolidator
             }
         }
 
-        // TODO: Consolidate and merge Records
-        foreach(var records in groupedRecords)
-        {
-            var fullFirstName = records.FirstOrDefault().FirstName;
-            var fullLastName = records.FirstOrDefault().LastName;
-            // Compare all records in the group to get the most complete names
-            foreach (var record in records.Skip(1)) // Start from the second record
-            {
-                fullFirstName = GetFullName(fullFirstName, record.FirstName);
-                fullLastName = GetFullName(fullLastName, record.LastName);
-            }
-
-            var namesList = string.Join(", ", records.Select(r => $"{r.FirstName} {r.LastName}"));
-            Console.WriteLine($"{fullFirstName} {fullLastName} - {records.Count}: [{namesList}]");
-        }
-
-        return null;
+        return groupedRecords.Select(MergeRecords).ToList();
     }
 
     private bool NamesMatch(string firstName1, string firstName2, string lastName1, string lastName2)
@@ -107,29 +118,196 @@ public class Consolidator
         return targetName;
     }
 
-    private void MergeRecords(Record target, Record source)
+    private Record MergeRecords(List<Record> records)
     {
-        // Merge the source record into the target record, filling in missing data
+        return new Record
+        {
+            EmployeeId = MergeNullableProperty<int>(records, nameof(Record.EmployeeId)),
+            TitleName = MergeProperty(records, nameof(Record.TitleName)),
+            FirstName = MergeProperty(records, nameof(Record.FirstName)),
+            LastName = MergeProperty(records, nameof(Record.LastName)),
+            MiddleName = MergeProperty(records, nameof(Record.MiddleName)),
+            NickName = MergeProperty(records, nameof(Record.NickName)),
+            Department = MergeProperty(records, nameof(Record.Department)),
+            Position = MergeProperty(records, nameof(Record.Position)),
+            PositionTitle = MergeProperty(records, nameof(Record.PositionTitle)),
+            Ethnicity = MergeProperty(records, nameof(Record.Ethnicity)),
+            Gender = MergeProperty(records, nameof(Record.Gender)),
+            AccrualProfile = MergeProperty(records, nameof(Record.AccrualProfile)),
+            EmployeeStatus = MergeProperty(records, nameof(Record.EmployeeStatus)),
+            DateHired = MergeNullableProperty<DateTime>(records, nameof(Record.DateHired)),
+            Salary = MergeNullableProperty<decimal>(records, nameof(Record.Salary)),
+            CertifiedOfficer = MergeBoolean(records, nameof(Record.CertifiedOfficer)),
+            CurrentlyEmployed = MergeNullableBoolean(records, nameof(Record.CurrentlyEmployed)),
+            Complaints = MergeNullableProperty<int>(records, nameof(Record.Complaints)),
+            SustainedComplaints = MergeNullableProperty<int>(records, nameof(Record.SustainedComplaints)),
+            PendingComplaints = MergeNullableProperty<int>(records, nameof(Record.PendingComplaints)),
+            Commendations = MergeNullableProperty<int>(records, nameof(Record.Commendations))
+        };
+    }
 
-        target.FirstName = GetFullName(target.FirstName, source.FirstName);
-        target.LastName = GetFullName(target.LastName, source.LastName);
-        target.TitleName ??= source.TitleName;
-        target.MiddleName ??= source.MiddleName;
-        target.NickName ??= source.NickName;
-        target.Department ??= source.Department;
-        target.Position ??= source.Position;
-        target.PositionTitle ??= source.PositionTitle;
-        target.Ethnicity ??= source.Ethnicity;
-        target.Gender ??= source.Gender;
-        target.AccrualProfile ??= source.AccrualProfile;
-        target.EmployeeStatus ??= source.EmployeeStatus;
-        target.DateHired ??= source.DateHired;
-        target.Salary ??= source.Salary;
-        target.CertifiedOfficer |= source.CertifiedOfficer; // Assume CertifiedOfficer is true if true in any record
-        target.CurrentlyEmployed ??= source.CurrentlyEmployed;
-        target.Complaints ??= source.Complaints;
-        target.SustainedComplaints ??= source.SustainedComplaints;
-        target.PendingComplaints ??= source.PendingComplaints;
-        target.Commendations ??= source.Commendations;
+    private T? MergeNullableProperty<T>(List<Record> records, string propertyName) where T : struct
+    {
+        var propertyValues = records
+            .Select(r => r.GetType().GetProperty(propertyName)?.GetValue(r))
+            .OfType<T?>()
+            .Where(v => v.HasValue)
+            .ToList();
+
+        if (propertyValues.Count == 1)
+        {
+            return propertyValues.First();
+        }
+
+        var primary = records.FirstOrDefault();
+        var primaryName = $"{primary?.FirstName} {primary?.LastName}";
+        if(!propertyValues.Any()){
+            _logger.LogDebug($"[{primaryName}] No values for {propertyName}");
+            return null;
+        }
+
+        if (propertyValues.All(v => v.Value.Equals(propertyValues.First().Value)))
+        {
+            return propertyValues.First();
+        }
+
+        // Handle conflicting values with ambiguity and warnings, similar to the original logic
+        var conflictingRecords = records.Where(r => r.GetType().GetProperty(propertyName)?.GetValue(r) != null).ToList();
+        var nonAmbiguousConflictingRecords = conflictingRecords.Where(r => !ambiguousRecords.ContainsKey(r)).ToList();
+
+        if (nonAmbiguousConflictingRecords.Count > 1)
+        {
+            // Use the most frequent value
+            var mostFrequentValue = propertyValues
+                .GroupBy(v => v)
+                .OrderByDescending(g => g.Count())
+                .First().Key;
+            _logger.LogWarning($"[{primaryName}] Conflicting values for {propertyName}. Using most frequent value for {propertyName}: {mostFrequentValue}");
+
+            return mostFrequentValue;
+        }
+
+        if (conflictingRecords.All(r => ambiguousRecords.ContainsKey(r)))
+        {
+            _logger.LogWarning($"[{primaryName}] Discarding {propertyName} due to ambiguity");
+            return null;
+        }
+
+        return propertyValues.FirstOrDefault();
+    }
+
+    private bool MergeBoolean(List<Record> records, string propertyName)
+    {
+        var propertyValues = records
+            .Select(r => (bool)r.GetType().GetProperty(propertyName)?.GetValue(r))
+            .ToList();
+
+        return propertyValues.Any(v => v); // If any record is true, return true
+    }
+
+    private bool? MergeNullableBoolean(List<Record> records, string propertyName)
+    {
+        var propertyValues = records
+            .Select(r => (bool?)r.GetType().GetProperty(propertyName)?.GetValue(r))
+            .Where(v => v.HasValue)
+            .ToList();
+
+        if (propertyValues.Count == 1)
+        {
+            return propertyValues.First();
+        }
+
+        var primary = records.FirstOrDefault();
+        var primaryName = $"{primary?.FirstName} {primary?.LastName}";
+        if(!propertyValues.Any()){
+            _logger.LogDebug($"WARNING: [{primaryName}] No values for {propertyName}");
+            return null;
+        }
+
+        if (propertyValues.All(v => v.Value == propertyValues.First().Value))
+        {
+            return propertyValues.First();
+        }
+
+        // Handle conflicting values and ambiguous records like in the nullable method
+        var conflictingRecords = records.Where(r => r.GetType().GetProperty(propertyName)?.GetValue(r) != null).ToList();
+        var nonAmbiguousConflictingRecords = conflictingRecords.Where(r => !ambiguousRecords.ContainsKey(r)).ToList();
+
+        if (nonAmbiguousConflictingRecords.Count > 1)
+        {
+            // Use the most frequent value
+            var mostFrequentValue = propertyValues
+                .GroupBy(v => v)
+                .OrderByDescending(g => g.Count())
+                .First().Key;
+            _logger.LogWarning($"WARNING: [{primaryName}] Conflicting values for {propertyName}. Using most frequent value for {propertyName}: {mostFrequentValue}");
+
+            return mostFrequentValue;
+        }
+
+        if (conflictingRecords.All(r => ambiguousRecords.ContainsKey(r)))
+        {
+            _logger.LogWarning($"WARNING: [{primaryName}] Discarding {propertyName} due to ambiguity");
+            return null;
+        }
+
+        return propertyValues.FirstOrDefault();
+    }
+
+    private string MergeProperty(List<Record> records, string propertyName)
+    {
+        var propertyValues = records
+            .Select(r => r.GetType().GetProperty(propertyName)?.GetValue(r)?.ToString())
+            .Where(v => !string.IsNullOrWhiteSpace(v))
+            .ToList();
+
+        // If only one value exists, return it
+        if (propertyValues.Count == 1)
+        {
+            return propertyValues.First();
+        }
+
+        var primary = records.FirstOrDefault();
+        var primaryName = $"{primary?.FirstName} {primary?.LastName}";
+        if(!propertyValues.Any()){
+            _logger.LogDebug($"[{primaryName}] No values for {propertyName}");
+            return null;
+        }
+
+        // If all values are the same (ignoring case), return the value
+        if (propertyValues.All(v => string.Equals(v, propertyValues.First(), StringComparison.OrdinalIgnoreCase)))
+        {
+            return propertyValues.First();
+        }
+
+        // If there are multiple conflicting values
+        var conflictingRecords = records.Where(r => !string.IsNullOrWhiteSpace(r.GetType().GetProperty(propertyName)?.GetValue(r)?.ToString())).ToList();
+
+        // Check if any conflicting records are in the ambiguousRecords dictionary
+        var nonAmbiguousConflictingRecords = conflictingRecords.Where(r => !ambiguousRecords.ContainsKey(r)).ToList();
+
+        if (nonAmbiguousConflictingRecords.Count > 1)
+        {
+            // There are multiple non-ambiguous conflicting records
+
+            // Group values by their occurrence and take the most frequent one
+            var mostFrequentValue = propertyValues
+                .GroupBy(v => v.ToLower()) // Ignore case
+                .OrderByDescending(g => g.Count())
+                .First().Key;
+            _logger.LogWarning($"WARNING: [{primaryName}] Conflicting values for {propertyName}. Using most frequent value for {propertyName}: {mostFrequentValue} won against [{string.Join(", ", propertyValues)}]");
+
+            return mostFrequentValue;
+        }
+
+        // If all conflicting records are ambiguous, discard them and return null
+        if (conflictingRecords.All(r => ambiguousRecords.ContainsKey(r)))
+        {
+            _logger.LogWarning($"WARNING: [{primary}] Discarding {propertyName} due to ambiguity");
+            return null;
+        }
+
+        // Default case: return the first valid value
+        return propertyValues.First();
     }
 }
