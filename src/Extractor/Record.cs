@@ -17,6 +17,8 @@ public class Record
     public string? EmployeeStatus { get; set; }
     [JsonConverter(typeof(DateOnlyConverter))]
     public DateTime? DateHired { get; set; }
+    [JsonConverter(typeof(DateOnlyConverter))]
+    public DateTime? SeparationDate { get; set; }
     public decimal? Salary { get; set; }
     public bool CertifiedOfficer { get; set; }
     public bool? CurrentlyEmployed { get; set; }
