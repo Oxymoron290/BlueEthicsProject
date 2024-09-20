@@ -10,7 +10,7 @@ public class Jan24ComplaintsParser : IExcelParser
         foreach (DataRow row in table.Rows)
         {
             //Console.WriteLine($"{row[0]}, {row[1]}, {row[2]}, {row[3]}, {row[4]}, {row[5]}, {row[6]}, {row[7]}");
-            var name = new HumanName(row[0].ToString());
+            var name = new HumanName(row[0].ToString().Trim());
             var person = new Record
             {
                 //Name = row[0].ToString(),
@@ -19,13 +19,13 @@ public class Jan24ComplaintsParser : IExcelParser
                 LastName = name.Last,
                 MiddleName = name.Middle,
                 NickName = name.Nickname,
-                Department = row[1].ToString(),
-                PositionTitle = row[2].ToString(),
-                CertifiedOfficer = row[3].ToString() == "Y",
-                CurrentlyEmployed = string.IsNullOrWhiteSpace(row[4].ToString()) ? null : row[4].ToString() == "Y" ? (bool?)true : false,
+                Department = row[1].ToString().Trim(),
+                PositionTitle = row[2].ToString().Trim(),
+                CertifiedOfficer = row[3].ToString().Trim().ToUpper() == "Y",
+                CurrentlyEmployed = string.IsNullOrWhiteSpace(row[4].ToString().Trim()) ? null : row[4].ToString().Trim().ToUpper() == "Y" ? true : false,
                 Complaints = TryParseNullableInt(row[5].ToString()),
                 SustainedComplaints = row[6].ToString() == "Pending" ? null : TryParseNullableInt(row[6].ToString()),
-                PendingComplaints = row[6].ToString() == "Pending" ? 1 : 0,
+                PendingComplaints = row[6].ToString().Trim().ToLower() == "pending" ? 1 : 0,
                 Commendations = TryParseNullableInt(row[7].ToString())
             };
             people.Add(person);
