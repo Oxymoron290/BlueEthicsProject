@@ -1,10 +1,10 @@
 import { Outlet } from 'react-router-dom';
+import AdminNav from '../AdminNav';
 
 function AdminLayout() {
   return (
     <>
-      {/** Header & Navigation */}
-      <h1>Administration</h1>
+      <AdminNav title="Blue Ethics Project" />
       <main>
         <Outlet />
       </main>
