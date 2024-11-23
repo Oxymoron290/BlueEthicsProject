@@ -1,0 +1,32 @@
+[
+  {
+    "caseNumber": "",
+    "type": "",
+    "district": "",
+    "status": "",
+    "assignments": [
+      {
+        "lead": false,
+        "name": "",
+        "badge": "",
+        "assignedOn": "",
+        "dismissedOn": "",
+        "dismissalReason": ""
+      }
+    ],
+    "incidents": [
+      {
+        "incidentNumber": "",
+        "dateReported": "",
+        "dateOccured": "",
+        "offence": ""
+      }
+    ],
+    "narratives":[
+      {
+        "author": "",
+        "narrative": ""
+      }
+    ]
+  }
+]

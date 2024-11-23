@@ -1,0 +1,47 @@
+[
+  {
+    "originationDate": "",
+    "organization": "",
+    "requestMethod": {
+      "type": "",
+      "location": ""
+    },
+    "originalRequest": {
+      "firstName": "",
+      "lastName": "",
+      "organization": "",
+      "mailingAddress": {
+        "address1": "",
+        "address2": "",
+        "city": "",
+        "state": "",
+        "county": "",
+        "postalCode": "",
+        "country": "",
+        "coordinates": {
+          "latitude": 0,
+          "longitude": 0
+        }
+      },
+      "emailAddress": "",
+      "phone": "",
+      "preferredCommunication": "phone|text|email|mail",
+      "policeRecords": false,
+      "description": "",
+      "attachments": [],
+      "startDate": "",
+      "endDate": "",
+      "results": "copies|inspection"
+    },
+    "status": "new|pending|ag_ruling|review|closed",
+    "responses": [
+      {
+        "method": "",
+        "from": "",
+        "to": "",
+        "message": "",
+        "attachments": []
+      }
+    ]
+  }
+]

@@ -1,0 +1,20 @@
+[
+  {
+    "subjectId": 0,
+    "foiaRequestId": 0,
+    "complaints": [
+      {
+        "attachments": [],
+        "description": "",
+        "status": "sustained|pending|not_sustained"
+      }
+    ],
+    "commendations": [
+      {
+        "attachments": [],
+        "description": "",
+        "status": "sustained|pending|not_sustained"
+      }
+    ]
+  }
+]

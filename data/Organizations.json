@@ -1,0 +1,66 @@
+[
+  {
+    "name": "City of Bedford",
+    "website": "https://bedfordtx.gov/",
+    "phone": "+18179522100",
+    "address": {
+      "address1": "2000 Forest Ridge Drive",
+      "address2": "",
+      "city": "Bedford",
+      "state": "Texas",
+      "county": "Tarrant",
+      "postalCode": "76021-7602",
+      "country": "USA",
+      "coordinates": {
+        "latitude": 32.8415632,
+        "longitude": -97.1404304
+      }
+    },
+    "requestMethods": [
+      {
+        "type": "webform",
+        "location": "https://bedfordtx.gov/FormCenter/City-Secretary-15/Texas-Public-Information-Act-Information-64"
+      },
+      {
+        "type": "handDelivered",
+        "location": "City Hall Building A, 2000 Forest Ridge Drive, Bedford, TX 76021-7602"
+      },
+      {
+        "type": "mailed",
+        "location": "Attention City Secretary, 2000 Forest Ridge Drive, Bedford, TX 76021"
+      }
+    ]
+  },
+  {
+    "name": "Bedford Police Department",
+    "website": "https://bedfordtx.gov/174/Police-Department",
+    "phone": "+18179522440",
+    "address": {
+      "address1": "2121 L Don Dodson Dr",
+      "address2": "",
+      "city": "Bedford",
+      "state": "Texas",
+      "county": "Tarrant",
+      "postalCode": "76021",
+      "country": "USA",
+      "coordinates": {
+        "latitude": 32.8420703,
+        "longitude": -97.1309165
+      }
+    },
+    "requestMethods": [
+      {
+        "type": "webform",
+        "location": "https://bedfordtx.gov/FormCenter/City-Secretary-15/Texas-Public-Information-Act-Information-64"
+      },
+      {
+        "type": "handDelivered",
+        "location": "City Hall Building A, 2000 Forest Ridge Drive, Bedford, TX 76021-7602"
+      },
+      {
+        "type": "mailed",
+        "location": "Attention City Secretary, 2000 Forest Ridge Drive, Bedford, TX 76021"
+      }
+    ]
+  }
+]

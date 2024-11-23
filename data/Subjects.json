@@ -1,0 +1,26 @@
+[
+    {
+        "EmployeeId": null,
+        "TitleName": null,
+        "FirstName": "",
+        "LastName": "",
+        "MiddleName": null,
+        "NickName": null,
+        "Department": "",
+        "Position": "",
+        "PositionTitle": "",
+        "Ethnicity": "",
+        "Gender": "",
+        "AccrualProfile": null,
+        "EmployeeStatus": null,
+        "DateHired": "",
+        "SeparationDate": null,
+        "Salary": 0,
+        "CertifiedOfficer": false,
+        "CurrentlyEmployed": true,
+        "Complaints": 0,
+        "SustainedComplaints": 0,
+        "PendingComplaints": 0,
+        "Commendations": 0
+    }
+]
