@@ -1,0 +1,43 @@
+meta {
+  name: Create Organization
+  type: http
+  seq: 1
+}
+
+post {
+  url: http://localhost:3000/organization
+  body: json
+  auth: none
+}
+
+body:json {
+  {
+      "name": "City of Bedford",
+      "website": "https://bedfordtx.gov/",
+      "phone": "+18179522100",
+      "address": {
+        "address1": "2000 Forest Ridge Drive",
+        "city": "Bedford",
+        "state": "Texas",
+        "county": "Tarrant",
+        "postalCode": "76021-7602",
+        "country": "USA",
+        "latitude": 32.8415632,
+        "longitude": -97.1404304
+      },
+      "validRequestMethods": [
+        {
+          "type": "WEB",
+          "location": "https://bedfordtx.gov/FormCenter/City-Secretary-15/Texas-Public-Information-Act-Information-64"
+        },
+        {
+          "type": "SELF",
+          "location": "City Hall Building A, 2000 Forest Ridge Drive, Bedford, TX 76021-7602"
+        },
+        {
+          "type": "MAIL",
+          "location": "Attention City Secretary, 2000 Forest Ridge Drive, Bedford, TX 76021"
+        }
+      ]
+    }
+}

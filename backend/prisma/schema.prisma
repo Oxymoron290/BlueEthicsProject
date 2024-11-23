@@ -43,7 +43,7 @@ model Address {
   longitude   Float
   company     String?
   request     OriginalRequest?
-  originalRequestId Int
+  originalRequestId Int?
   organization Organization?
   organizationId Int?
 }

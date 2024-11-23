@@ -47,7 +47,7 @@ CREATE TABLE "Address" (
     "latitude" DOUBLE PRECISION NOT NULL,
     "longitude" DOUBLE PRECISION NOT NULL,
     "company" TEXT,
-    "originalRequestId" INTEGER NOT NULL,
+    "originalRequestId" INTEGER,
     "organizationId" INTEGER,
 
     CONSTRAINT "Address_pkey" PRIMARY KEY ("id")
@@ -201,6 +201,7 @@ CREATE TABLE "Subject" (
     "sustainedComplaints" INTEGER NOT NULL,
     "pendingComplaints" INTEGER NOT NULL,
     "commendations" INTEGER NOT NULL,
+    "organizationId" INTEGER NOT NULL,
 
     CONSTRAINT "Subject_pkey" PRIMARY KEY ("id")
 );
@@ -252,3 +253,6 @@ ALTER TABLE "Incident" ADD CONSTRAINT "Incident_caseFileId_fkey" FOREIGN KEY ("c
 
 -- AddForeignKey
 ALTER TABLE "Narrative" ADD CONSTRAINT "Narrative_caseFileId_fkey" FOREIGN KEY ("caseFileId") REFERENCES "CaseFile"("id") ON DELETE RESTRICT ON UPDATE CASCADE;
+
+-- AddForeignKey
+ALTER TABLE "Subject" ADD CONSTRAINT "Subject_organizationId_fkey" FOREIGN KEY ("organizationId") REFERENCES "Organization"("id") ON DELETE RESTRICT ON UPDATE CASCADE;
