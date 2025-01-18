@@ -15,13 +15,7 @@ async function bootstrap() {
   });
 
   // Enable global validation and transformation
-  app.useGlobalPipes(
-    new ValidationPipe({
-      transform: true,
-    }),
-  );
-
-  // app.useGlobalPipes(new ValidationPipe({ whitelist: true }));
+  app.useGlobalPipes(new ValidationPipe({ transform: true }));
 
   app.enableCors();
 

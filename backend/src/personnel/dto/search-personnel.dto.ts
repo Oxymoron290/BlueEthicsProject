@@ -3,7 +3,7 @@ import { Type } from 'class-transformer';
 
 export class SearchPersonnelDto {
   @IsOptional()
-  @Type(() => Number) // Automatically transform the query parameter to a number
+  @Type(() => Number)
   @IsNumber()
   organizationId?: number;
 
