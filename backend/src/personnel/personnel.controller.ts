@@ -13,6 +13,11 @@ export class PersonnelController {
     return this.personnelService.create(createPersonnelDto);
   }
 
+  @Post('/all')
+  createBulk(@Body() createPersonnelDto: CreatePersonnelDto[]) {
+    return this.personnelService.createBulk(createPersonnelDto);
+  }
+
   @Get()
   findAll() {
     return this.personnelService.findAll();

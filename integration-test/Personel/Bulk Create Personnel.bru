@@ -1,0 +1,91 @@
+meta {
+  name: Bulk Create Personnel
+  type: http
+  seq: 7
+}
+
+post {
+  url: http://localhost:3000/personnel/all
+  body: json
+  auth: none
+}
+
+body:json {
+  [
+    {
+      "employeeId": null,
+      "titleName": null,
+      "firstName": "akesa",
+      "lastName": "AFUHAAMANGO",
+      "middleName": null,
+      "nickName": null,
+      "department": "police department",
+      "position": "Technician - Kennel",
+      "positionTitle": "Animal Control Officer",
+      "ethnicity": "Native Hawaiian or Other Pacific Islander ",
+      "gender": "Female",
+      "accrualProfile": null,
+      "employeeStatus": null,
+      "dateHired": "2022-02-14T00:00:00.000Z",
+      "separationDate": null,
+      "salary": 40019.2,
+      "certifiedOfficer": false,
+      "currentlyEmployed": true,
+      "complaints": 3,
+      "sustainedComplaints": 3,
+      "pendingComplaints": 0,
+      "commendations": 1,
+      "organizationId": 1
+    },
+    {
+      "employeeId": null,
+      "titleName": null,
+      "firstName": "mark",
+      "lastName": "AGUIRRE",
+      "middleName": null,
+      "nickName": null,
+      "department": "POLICE DEPARTMENT",
+      "position": "Police Officer",
+      "positionTitle": "Patrol Officer",
+      "ethnicity": "Hispanic or Latino",
+      "gender": "Male",
+      "accrualProfile": null,
+      "employeeStatus": null,
+      "dateHired": "2019-01-02T00:00:00.000Z",
+      "separationDate": null,
+      "salary": 82971.2,
+      "certifiedOfficer": true,
+      "currentlyEmployed": true,
+      "complaints": 0,
+      "sustainedComplaints": 0,
+      "pendingComplaints": 0,
+      "commendations": 2,
+      "organizationId": 1
+    },
+    {
+      "employeeId": null,
+      "titleName": null,
+      "firstName": "kacie",
+      "lastName": "ALLEN",
+      "middleName": null,
+      "nickName": null,
+      "department": "POLICE DEPARTMENT",
+      "position": "Technician - Property and Evidence",
+      "positionTitle": "Property Technician",
+      "ethnicity": "White (not Hispanic or Latino)",
+      "gender": "Female",
+      "accrualProfile": null,
+      "employeeStatus": null,
+      "dateHired": "2013-12-18T00:00:00.000Z",
+      "separationDate": null,
+      "salary": 52457.6,
+      "certifiedOfficer": false,
+      "currentlyEmployed": true,
+      "complaints": 0,
+      "sustainedComplaints": 0,
+      "pendingComplaints": 0,
+      "commendations": 0,
+      "organizationId": 1
+    }
+  ]
+}

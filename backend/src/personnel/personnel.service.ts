@@ -10,7 +10,11 @@ export class PersonnelService {
 
   async create(createPersonnelDto: CreatePersonnelDto) {
     const { organizationId, ...rest } = createPersonnelDto;
-    console.log(organizationId);
+
+    if (!organizationId) {
+      throw new Error('Each personnel record must have an organizationId.');
+    }
+
     return this.prisma.subject.create({
       data: {
         ...rest,
@@ -18,6 +22,21 @@ export class PersonnelService {
           connect: { id: organizationId },
         },
       },
+    });
+  }
+
+  async createBulk(createPersonnelDtos: CreatePersonnelDto[]) {
+    const personnelData = createPersonnelDtos.map((dto) => {
+      if (!dto.organizationId) {
+        throw new Error('Each personnel record must have an organizationId.');
+      }
+
+      return dto;
+    });
+
+    return this.prisma.subject.createMany({
+      data: personnelData,
+      skipDuplicates: true,
     });
   }
 
