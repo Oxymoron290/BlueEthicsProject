@@ -46,6 +46,7 @@ export class OrganizationService {
       include: {
         address: true,
         validRequestMethods: true,
+        personnel: true,
       },
     });
   }

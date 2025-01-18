@@ -1,12 +1,12 @@
 import { useParams, Link } from "react-router-dom";
 import { useEffect, useState } from "react";
-import { Employee, Entity } from "../../types/api";
-import { entitiesClient } from "../../api";
+import { Personnel, Organization } from "../../types/api";
+import { organizationsClient } from "../../api";
 
 function EmployeeDetails() {
   const { id: entityId, employeeId } = useParams<{ id: string; employeeId: string }>();
-  const [entity, setEntity] = useState<Entity | null>(null);
-  const [employee, setEmployee] = useState<Employee | null>(null);
+  const [entity, setEntity] = useState<Organization | null>(null);
+  const [employee, setEmployee] = useState<Personnel | null>(null);
 
   useEffect(() => {
     if (!entityId || !employeeId) return;
@@ -14,11 +14,11 @@ function EmployeeDetails() {
     const fetchData = async () => {
       try {
         // Fetch the entity
-        const fetchedEntity = await entitiesClient.getEntityById(entityId);
+        const fetchedEntity = await organizationsClient.getOrganizationById(entityId);
         setEntity(fetchedEntity);
 
         // Find the employee within the entity
-        const fetchedEmployee = fetchedEntity.employees.find((emp) => emp.id === employeeId);
+        const fetchedEmployee = fetchedEntity.personnel?.find((emp) => emp.id === Number(employeeId));
         if (!fetchedEmployee) {
           throw new Error(`Employee with ID ${employeeId} not found in entity ${entityId}`);
         }
@@ -64,7 +64,7 @@ function EmployeeDetails() {
             {employee.department && <p><strong>Department:</strong> {employee.department}</p>}
             {employee.salary && <p><strong>Salary:</strong> ${employee.salary.toLocaleString()}</p>}
             {employee.gender && <p><strong>Gender:</strong> {employee.gender}</p>}
-            {employee.Ethnicity && <p><strong>Ethnicity:</strong> {employee.Ethnicity}</p>}
+            {employee.ethnicity && <p><strong>Ethnicity:</strong> {employee.ethnicity}</p>}
             {(employee.complaints ?? 0) > 0 && <p><strong>Complaints:</strong> {employee.complaints}</p>}
             {(employee?.sustainedComplaints ?? 0) > 0 && (
               <p><strong>Sustained Complaints:</strong> {employee.sustainedComplaints}</p>

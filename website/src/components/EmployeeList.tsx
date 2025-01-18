@@ -1,8 +1,8 @@
 import { useNavigate } from "react-router-dom";
-import { Employee } from "../types/api";
+import { Personnel } from "../types/api";
 
 interface EmployeeListProps {
-  employees: Employee[];
+  employees: Personnel[];
   entityId: string; // Pass the entity ID for navigation
 }
 

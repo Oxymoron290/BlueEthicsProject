@@ -1,11 +1,11 @@
 import { useEffect, useState } from "react";
-import { entitiesClient } from "../../api";
-import { Entity } from "../../types/api";
+import { organizationsClient } from "../../api";
+import { Organization } from "../../types/api";
 import EntityCard from "../../components/EntityCard";
 
 function Entities() {
   const [searchTerm, setSearchTerm] = useState("");
-  const [entities, setEntities] = useState<Entity[]>([]);
+  const [entities, setEntities] = useState<Organization[]>([]);
   const [error, setError] = useState<string | null>(null);
 
   const filteredEntities = entities.filter((entity) =>
@@ -13,8 +13,8 @@ function Entities() {
   );
 
   useEffect(() => {
-    entitiesClient
-      .getEntities()
+    organizationsClient
+      .getOrganizations()
       .then(setEntities)
       .catch((err) => setError(err.message));
   }, []);
@@ -41,7 +41,7 @@ function Entities() {
           filteredEntities.map((entity) => (
             <EntityCard
               key={entity.id}
-              entity={entity}
+              org={entity}
             />
           ))
         ) : (

@@ -1,21 +1,22 @@
 import { useEffect, useState } from "react";
 import { useParams } from "react-router-dom";
-import { Entity, Employee } from "../../types/api";
-import { entitiesClient } from "../../api";
+import { Organization, Personnel } from "../../types/api";
+import { organizationsClient } from "../../api";
 import HorizontalSplitBar from "../../components/HorizontalSplitBar";
 import EmployeeList from "../../components/EmployeeList";
 
 function EntityDetails() {
   const { id } = useParams<{ id: string }>();
-  const [entity, setEntity] = useState<Entity | null>(null);
+  const [entity, setEntity] = useState<Organization | null>(null);
   const [filter, setFilter] = useState<"all" | "employed" | "separated">("all");
-  const [filteredEmployees, setFilteredEmployees] = useState<Employee[]>([]);
+  const [filteredEmployees, setFilteredEmployees] = useState<Personnel[]>([]);
   // const [error, setError] = useState<string | null>(null);
 
   useEffect(() => {
     if (!id) return;
     const fetchEntity = async () => {
-      const result: Entity = await entitiesClient.getEntityById(id);
+      const result: Organization = await organizationsClient.getOrganizationById(id);
+      console.log(result);
       setEntity(result);
     };
 
@@ -24,12 +25,13 @@ function EntityDetails() {
 
   useEffect(() => {
     if (!entity) return;
+    if(!entity.personnel) return;
 
-    let filtered = entity.employees;
+    let filtered = entity.personnel;
     if (filter === "employed") {
-      filtered = entity.employees.filter((emp) => !emp.separationDate);
+      filtered = entity.personnel.filter((emp) => !emp.separationDate);
     } else if (filter === "separated") {
-      filtered = entity.employees.filter((emp) => emp.separationDate);
+      filtered = entity.personnel.filter((emp) => emp.separationDate);
     }
     setFilteredEmployees(filtered);
   }, [entity, filter]);
@@ -53,7 +55,7 @@ function EntityDetails() {
   }, {});
 
   const ethnicityStats = filteredEmployees.reduce((acc: Record<string, number>, emp) => {
-    acc[emp.Ethnicity ?? "Unknown"] = (acc[emp.Ethnicity ?? "Unknown"] || 0) + 1;
+    acc[emp.ethnicity ?? "Unknown"] = (acc[emp.ethnicity ?? "Unknown"] || 0) + 1;
     return acc;
   }, {});
 

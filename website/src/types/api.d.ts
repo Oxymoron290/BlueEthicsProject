@@ -1,37 +1,61 @@
-export interface Entity {
-  id: string;
-  name: string;
-  phone: string;
-  address: string;
-  website: string;
-  employees: Employee[];
+export interface Address {
+  id: number;
+  address1: string;
+  address2: string | null;
+  city: string;
+  state: string;
+  county: string;
+  postalCode: string;
+  country: string;
+  latitude: number;
+  longitude: number;
+  company: string | null;
 }
 
-interface Employee {
-  id: string;
-  employeeId?: string | null;
-  portrait?: string;
-  titleName?: string | null;
+export interface ValidRequestMethod {
+  id: number;
+  type: 'WEB' | 'SELF' | 'MAIL' | 'EMAIL'; // Extend this based on your enum definition
+  location: string;
+  organizationId: number;
+}
+
+export interface Personnel {
+  id: number;
+  portrait: string | null;
+  employeeId: number | null;
+  titleName: string | null;
   firstName: string;
   lastName: string;
-  middleName?: string | null;
-  nickName?: string | null;
-  department?: string | null;
-  position?: string | null;
-  positionTitle?: string | null;
-  gender: string | null;
-  Ethnicity: string | null;
-  accrualProfile?: string | null;
-  employeeStatus?: null;
-  dateHired?: string | null;
-  separationDate?: string | null;
-  salary: number | null;
-  certifiedOfficer?: boolean;
-  currentlyEmployed?: boolean | null;
-  complaints?: number | null;
-  sustainedComplaints?: number | null;
-  pendingComplaints?: number | null;
-  commendations?: number | null;
+  middleName: string | null;
+  nickName: string | null;
+  department: string;
+  position: string;
+  positionTitle: string;
+  ethnicity: string;
+  gender: string;
+  accrualProfile: string | null;
+  employeeStatus: string | null;
+  dateHired: string; // ISO 8601 date format
+  separationDate: string | null; // ISO 8601 date format
+  salary: number;
+  certifiedOfficer: boolean;
+  currentlyEmployed: boolean;
+  complaints: number;
+  sustainedComplaints: number;
+  pendingComplaints: number;
+  commendations: number;
+  organizationId: number;
+}
+
+export interface Organization {
+  id: number;
+  name: string;
+  website: string;
+  phone: string;
+  addressId: number;
+  address: Address;
+  validRequestMethods: ValidRequestMethod[];
+  personnel?: Personnel[];
 }
 
 export interface Publication {
