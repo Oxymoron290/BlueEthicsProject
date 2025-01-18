@@ -1,5 +1,5 @@
 import { Outlet } from 'react-router-dom';
-import PublicNav from '../publicNav';
+import PublicNav from '../PublicNav';
 import {leftNavLinks, rightNavLinks} from "../../Navigation";
 import PublicFooter from '../PublicFooter';
 

@@ -1,12 +1,16 @@
 import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
-import LandingLayout from './layout/landing/LandingLayout';
-import Home from './pages/Home';
+// import LandingLayout from './layout/landing/LandingLayout';
+import MinimalLandingLayout from './layout/landing_min/MinimalLandingLayout';
+import Home from './pages/Main/Home';
+import Entities from './pages/Main/Entities';
+import Report from './pages/Main/Report';
+import Publications from './pages/Main/Publications';
 
 import MainLayout from './layout/main/MainLayout';
 import Main from './pages/Main';
 
 import AdminLayout from './layout/admin/AdminLayout';
-import Admin from './pages/Admin';
+import Admin from './pages/Admin/Admin';
 
 
 function App() {
@@ -14,8 +18,11 @@ function App() {
   return (
     <Router>
       <Routes>
-        <Route element={<LandingLayout />}>
+        <Route element={<MinimalLandingLayout />}>
           <Route path="/" element={<Home />} />
+          <Route path="/entities" element={<Entities />} />
+          <Route path="/report" element={<Report />} />
+          <Route path="/publications" element={<Publications />} />
         </Route>
         <Route element={<MainLayout />}>
           <Route path="/main" element={<Main />} />
