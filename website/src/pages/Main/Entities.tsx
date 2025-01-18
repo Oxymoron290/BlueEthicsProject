@@ -1,28 +1,27 @@
-import { useState } from "react";
+import { useEffect, useState } from "react";
+import { entitiesClient } from "../../api";
+import { Entity } from "../../types/api";
 import EntityCard from "../../components/EntityCard";
-
-const mockEntities = [
-  {
-    name: "Bedford Police Department",
-    phone: "+18179522440",
-    address: "2121 L Don Dodson Dr, Bedford, TX 76021",
-    website: "https://bedfordtx.gov/174/Police-Department",
-  },
-  {
-    name: "Fort Worth Fire Department",
-    phone: "+18179520000",
-    address: "123 Main St, Fort Worth, TX 76102",
-    website: "https://fortworthtexas.gov/fire/",
-  },
-  // Add more entities as needed
-];
 
 function Entities() {
   const [searchTerm, setSearchTerm] = useState("");
+  const [entities, setEntities] = useState<Entity[]>([]);
+  const [error, setError] = useState<string | null>(null);
 
-  const filteredEntities = mockEntities.filter((entity) =>
+  const filteredEntities = entities.filter((entity) =>
     entity.name.toLowerCase().includes(searchTerm.toLowerCase())
   );
+
+  useEffect(() => {
+    entitiesClient
+      .getEntities()
+      .then(setEntities)
+      .catch((err) => setError(err.message));
+  }, []);
+
+  if (error) {
+    return <p>Error: {error}</p>;
+  }
 
   return (
     <div>
@@ -39,13 +38,10 @@ function Entities() {
       </div>
       <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
         {filteredEntities.length > 0 ? (
-          filteredEntities.map((entity, index) => (
+          filteredEntities.map((entity) => (
             <EntityCard
-              key={index}
-              name={entity.name}
-              phone={entity.phone}
-              address={entity.address}
-              website={entity.website}
+              key={entity.id}
+              entity={entity}
             />
           ))
         ) : (
