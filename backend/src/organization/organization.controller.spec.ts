@@ -46,6 +46,7 @@ describe('OrganizationController', () => {
           latitude: 0,
           longitude: 0,
         },
+        socials: [{ platform: 'twitter', url: 'https://twitter.com/test' }],
         validRequestMethods: [{ type: 'WEB', location: 'https://example.com' }],
       };
 

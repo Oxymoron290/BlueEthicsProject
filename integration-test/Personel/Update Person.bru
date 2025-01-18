@@ -1,0 +1,20 @@
+meta {
+  name: Update Person
+  type: http
+  seq: 5
+}
+
+patch {
+  url: http://localhost:3000/personnel/1
+  body: json
+  auth: none
+}
+
+body:json {
+  {
+    "firstName": "Akesa",
+    "lastName": "Afuhaamango",
+    "department": "Police Department",
+    "dateHired": "2022-02-14T00:00:00.000Z"
+  }
+}

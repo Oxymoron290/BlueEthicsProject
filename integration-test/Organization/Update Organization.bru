@@ -1,0 +1,29 @@
+meta {
+  name: Update Organization
+  type: http
+  seq: 4
+}
+
+patch {
+  url: http://localhost:3000/organization/5
+  body: json
+  auth: none
+}
+
+body:json {
+  {
+      "name": "City of Bedford",
+      "website": "https://bedfordtx.gov/city",
+      "phone": "+18179522111",
+      "socials": [
+        {
+          "platform": "Facebook",
+          "url": "https://www.facebook.com/BedfordTX"
+        },
+        {
+          "platform": "X",
+          "url": "https://x.com/CityofBedfordtx"
+        }
+      ]
+    }
+}

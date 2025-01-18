@@ -8,7 +8,7 @@ export class OrganizationService {
   constructor(private prisma: PrismaService) {}
 
   create(createOrganizationDto: CreateOrganizationDto) {
-    const { address, validRequestMethods, ...organizationData } = createOrganizationDto;
+    const { address, socials, validRequestMethods, ...organizationData } = createOrganizationDto;
 
     return this.prisma.organization.create({
       data: {
@@ -16,12 +16,16 @@ export class OrganizationService {
         address: {
           create: address,
         },
+        socials: {
+          create: socials,
+        },
         validRequestMethods: {
           create: validRequestMethods,
         },
       },
       include: {
         address: true,
+        socials: true,
         validRequestMethods: true,
       },
     });
@@ -47,7 +51,7 @@ export class OrganizationService {
   }
 
   update(id: number, updateOrganizationDto: UpdateOrganizationDto) {
-    const { address, validRequestMethods, ...organizationData } = updateOrganizationDto;
+    const { address, socials, validRequestMethods, ...organizationData } = updateOrganizationDto;
 
     // Update organization and related entities
     return this.prisma.organization.update({
@@ -59,6 +63,12 @@ export class OrganizationService {
               update: address,
             }
           : undefined,
+        socials: socials
+          ? {
+              deleteMany: {},
+              create: socials,
+            }
+          : undefined,
         validRequestMethods: validRequestMethods
           ? {
               deleteMany: {},
@@ -68,6 +78,7 @@ export class OrganizationService {
       },
       include: {
         address: true,
+        socials: true,
         validRequestMethods: true,
       },
     });

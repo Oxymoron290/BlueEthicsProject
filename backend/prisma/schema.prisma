@@ -23,11 +23,22 @@ model Organization {
   phone          String
   address        Address       @relation(fields: [addressId], references: [id])
   addressId      Int
+  socials        SocialMediaLink[]
   validRequestMethods       RequestMethod[]
   records        Record[]
   personnel      Subject[]
 
   @@unique([addressId])
+}
+
+model SocialMediaLink {
+  id             Int                 @id @default(autoincrement())
+  platform       String
+  url            String
+  organizationId Int
+  organization   Organization                @relation(fields: [organizationId], references: [id])
+  createdAt      DateTime            @default(now())
+  updatedAt      DateTime            @updatedAt
 }
 
 model Address {
@@ -43,9 +54,7 @@ model Address {
   longitude   Float
   company     String?
   request     OriginalRequest?
-  originalRequestId Int?
   organization Organization?
-  organizationId Int?
 }
 
 model Record {

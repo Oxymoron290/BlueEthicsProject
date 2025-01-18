@@ -42,7 +42,7 @@ function EmployeeDetails() {
             src={
               employee.portrait
                 ? employee.portrait
-                : employee.gender.toLowerCase() === "female"
+                : employee.gender?.toLowerCase() === "female"
                 ? "/woman-police-officer.png"
                 : "/man-police-officer.png"
             }
@@ -65,14 +65,14 @@ function EmployeeDetails() {
             {employee.salary && <p><strong>Salary:</strong> ${employee.salary.toLocaleString()}</p>}
             {employee.gender && <p><strong>Gender:</strong> {employee.gender}</p>}
             {employee.Ethnicity && <p><strong>Ethnicity:</strong> {employee.Ethnicity}</p>}
-            {employee.complaints > 0 && <p><strong>Complaints:</strong> {employee.complaints}</p>}
+            {(employee.complaints ?? 0) > 0 && <p><strong>Complaints:</strong> {employee.complaints}</p>}
             {(employee?.sustainedComplaints ?? 0) > 0 && (
               <p><strong>Sustained Complaints:</strong> {employee.sustainedComplaints}</p>
             )}
             {(employee?.pendingComplaints ?? 0) > 0 && (
               <p><strong>Pending Complaints:</strong> {employee.pendingComplaints}</p>
             )}
-            {employee.commendations > 0 && (
+            {(employee.commendations ?? 0) > 0 && (
               <p><strong>Commendations:</strong> {employee.commendations}</p>
             )}
             {employee.dateHired && (

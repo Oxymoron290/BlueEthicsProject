@@ -1,0 +1,39 @@
+meta {
+  name: Create Personnel
+  type: http
+  seq: 1
+}
+
+post {
+  url: http://localhost:3000/personnel
+  body: json
+  auth: none
+}
+
+body:json {
+  {
+    "employeeId": null,
+    "titleName": null,
+    "firstName": "akesa",
+    "lastName": "AFUHAAMANGO",
+    "middleName": null,
+    "nickName": null,
+    "department": "police department",
+    "position": "Technician - Kennel",
+    "positionTitle": "Animal Control Officer",
+    "ethnicity": "Native Hawaiian or Other Pacific Islander ",
+    "gender": "Female",
+    "accrualProfile": null,
+    "employeeStatus": null,
+    "dateHired": "2022-02-14T00:00:00.000Z",
+    "separationDate": null,
+    "salary": 40019.2,
+    "certifiedOfficer": false,
+    "currentlyEmployed": true,
+    "complaints": 3,
+    "sustainedComplaints": 3,
+    "pendingComplaints": 0,
+    "commendations": 1,
+    "organizationId": 1
+  }
+}

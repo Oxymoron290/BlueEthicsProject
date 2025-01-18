@@ -38,41 +38,52 @@ function EntityDetails() {
     return <p>Loading...</p>;
   }
 
-  const totalComplaints = filteredEmployees.reduce((sum, emp) => sum + emp.complaints, 0);
-  const totalCommendations = filteredEmployees.reduce((sum, emp) => sum + emp.commendations, 0);
+  const totalComplaints = filteredEmployees.reduce((sum, emp) => sum + (emp.complaints ?? 0), 0);
+  const totalCommendations = filteredEmployees.reduce((sum, emp) => sum + (emp.commendations ?? 0), 0);
   const medianSalary =
     filteredEmployees.length > 0
       ? filteredEmployees
           .map((emp) => emp.salary)
-          .sort((a, b) => a - b)[Math.floor(filteredEmployees.length / 2)]
+          .sort((a, b) => (a ?? 0) - (b ?? 0))[Math.floor(filteredEmployees.length / 2)]
       : 0;
 
   const genderStats = filteredEmployees.reduce((acc: Record<string, number>, emp) => {
-    acc[emp.gender] = (acc[emp.gender] || 0) + 1;
+    acc[emp.gender ?? "Other"] = (acc[emp.gender ?? "Other"] || 0) + 1;
     return acc;
   }, {});
 
   const ethnicityStats = filteredEmployees.reduce((acc: Record<string, number>, emp) => {
-    acc[emp.Ethnicity] = (acc[emp.Ethnicity] || 0) + 1;
+    acc[emp.Ethnicity ?? "Unknown"] = (acc[emp.Ethnicity ?? "Unknown"] || 0) + 1;
     return acc;
   }, {});
 
   const genderCategories = Object.entries(genderStats).map(([label, count]) => ({
     label,
     percentage: (count / filteredEmployees.length) * 100,
-    color: label === "Male" ? "bg-blue-500" : "bg-pink-500",
+    color: label.toUpperCase() === "Male".toUpperCase() ? "bg-blue-700" : label.toUpperCase() === "Female".toUpperCase() ? "bg-pink-700" : "bg-gray-700",
   }));
 
   const ethnicityCategories = Object.entries(ethnicityStats).map(([label, count], index) => ({
     label,
     percentage: (count / filteredEmployees.length) * 100,
     color: [
-      "bg-green-700",
-      "bg-yellow-700",
       "bg-red-700",
+      "bg-cyan-700",
+      "bg-amber-700",
       "bg-purple-700",
+      "bg-pink-700",
+      "bg-lime-700",
+      "bg-blue-700",
+      "bg-emerald-700",
+      "bg-orange-700",
+      "bg-sky-700",
+      "bg-yellow-700",
+      "bg-indigo-700",
+      "bg-green-700",
+      "bg-fuchsia-700",
       "bg-teal-700",
-    ][index % 5],
+      "bg-rose-700",
+    ][index % 16],
   }));
 
   return (
@@ -105,7 +116,7 @@ function EntityDetails() {
               <strong>Total Employees:</strong> {filteredEmployees.length}
             </p>
             <p className="text-lg">
-              <strong>Median Salary:</strong> ${medianSalary.toLocaleString()}
+              <strong>Median Salary:</strong> ${medianSalary?.toLocaleString()}
             </p>
             <p className="text-lg">
               <strong>Total Complaints:</strong> {totalComplaints}

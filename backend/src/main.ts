@@ -1,6 +1,7 @@
 import { NestFactory } from '@nestjs/core';
 import { Logger, LogLevel } from '@nestjs/common';
 import { AppModule } from './app.module';
+import { ValidationPipe } from '@nestjs/common';
 
 async function bootstrap() {
   // Define log levels as LogLevel[]
@@ -12,6 +13,13 @@ async function bootstrap() {
   const app = await NestFactory.create(AppModule, {
     logger: logLevels,
   });
+
+  // Enable global validation and transformation
+  app.useGlobalPipes(
+    new ValidationPipe({
+      transform: true,
+    }),
+  );
 
   // app.useGlobalPipes(new ValidationPipe({ whitelist: true }));
 

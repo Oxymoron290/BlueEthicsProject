@@ -30,7 +30,7 @@ function EmployeeList({ employees, entityId }: EmployeeListProps) {
               <td className="py-2 px-4">{employee.lastName}</td>
               <td className="py-2 px-4">{employee.firstName}</td>
               <td className="py-2 px-4">{employee.positionTitle}</td>
-              <td className="py-2 px-4">${employee.salary.toLocaleString()}</td>
+              <td className="py-2 px-4">${employee.salary?.toLocaleString()}</td>
             </tr>
           ))}
         </tbody>

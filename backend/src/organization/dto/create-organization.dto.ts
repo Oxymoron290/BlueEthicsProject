@@ -14,6 +14,10 @@ export class CreateOrganizationDto {
     longitude: number;
     originalRequestId?: number;
   };
+  socials: {
+    platform: string;
+    url: string;
+  }[];
   validRequestMethods: {
     type: 'WEB' | 'EMAIL' | 'MAIL' | 'SELF';
     location: string;
