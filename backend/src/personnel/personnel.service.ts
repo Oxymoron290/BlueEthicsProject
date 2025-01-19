@@ -25,13 +25,17 @@ export class PersonnelService {
     });
   }
 
-  async createBulk(createPersonnelDtos: CreatePersonnelDto[]) {
+  async createBulk(organizationId: number, createPersonnelDtos: CreatePersonnelDto[]) {
     const personnelData = createPersonnelDtos.map((dto) => {
-      if (!dto.organizationId) {
-        throw new Error('Each personnel record must have an organizationId.');
-      }
-
-      return dto;
+      return {
+        ...dto,
+        organizationId: organizationId,
+        dateHired: dto.dateHired ? new Date(`${dto.dateHired}T00:00:00.000Z`) : undefined,
+        complaints: dto.complaints ?? 0,
+        sustainedComplaints: dto.sustainedComplaints ?? 0,
+        pendingComplaints: dto.pendingComplaints ?? 0,
+        commendations: dto.commendations ?? 0,
+      };
     });
 
     return this.prisma.subject.createMany({

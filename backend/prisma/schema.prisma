@@ -7,13 +7,34 @@ generator client {
   provider = "prisma-client-js"
 }
 
-model RequestMethod {
-  id          Int           @id @default(autoincrement())
-  type        RequestMethodType
-  location    String
-  organization Organization @relation(fields: [organizationId], references: [id])
-  organizationId Int
-  records     Record[]
+model Subject {
+  id                Int      @id @default(autoincrement())
+  portrait          String?
+  employeeId        String?
+  titleName         String?
+  firstName         String
+  lastName          String
+  middleName        String?
+  nickName          String?
+  department        String?
+  position          String?
+  positionTitle     String?
+  ethnicity         String?
+  gender            String?
+  accrualProfile    String?
+  employeeStatus    String?
+  dateHired         DateTime?
+  separationDate    DateTime?
+  salary            Float?
+  certifiedOfficer  Boolean
+  currentlyEmployed Boolean?
+  complaints        Int
+  sustainedComplaints Int
+  pendingComplaints Int
+  commendations     Int
+  personelRecords   PersonnelRecord[]
+  organization      Organization @relation(fields: [organizationId], references: [id])
+  organizationId    Int
 }
 
 model Organization {
@@ -29,6 +50,15 @@ model Organization {
   personnel      Subject[]
 
   @@unique([addressId])
+}
+
+model RequestMethod {
+  id          Int           @id @default(autoincrement())
+  type        RequestMethodType
+  location    String
+  organization Organization @relation(fields: [organizationId], references: [id])
+  organizationId Int
+  records     Record[]
 }
 
 model SocialMediaLink {
@@ -66,7 +96,7 @@ model Record {
   requestMethodId Int
   originalRequest OriginalRequest  @relation(fields: [originalRequestId], references: [id])
   originalRequestId Int
-  personelRecords PersonnelRecord[]
+  personnelRecords PersonnelRecord[]
   status         RecordStatus
   responses      Response[]
 }
@@ -75,7 +105,7 @@ model OriginalRequest {
   id               Int      @id @default(autoincrement())
   firstName        String
   lastName         String
-  company     String
+  company          String
   mailingAddress   Address   @relation(fields: [mailingAddressId], references: [id])
   mailingAddressId Int
   emailAddress     String
@@ -101,34 +131,41 @@ model Response {
   attachments String[]
   record    Record   @relation(fields: [recordId], references: [id])
   recordId  Int
+  createdAt     DateTime      @default(now())
+  updatedAt     DateTime      @updatedAt
 }
 
 model PersonnelRecord {
-  id          Int           @id @default(autoincrement())
-  subject     Subject       @relation(fields: [subjectId], references: [id])
-  subjectId   Int
-  foiaRequest Record        @relation(fields: [foiaRequestId], references: [id])
+  id            Int           @id @default(autoincrement())
+  subject       Subject       @relation(fields: [subjectId], references: [id])
+  subjectId     Int
+  foiaRequest   Record        @relation(fields: [foiaRequestId], references: [id])
   foiaRequestId Int
-  complaints  Complaint[]
-  commendations Commendation[]
+  createdAt     DateTime      @default(now())
+  updatedAt     DateTime      @updatedAt
+  feedback      PerformanceRecord[]
 }
 
-model Complaint {
-  id           Int      @id @default(autoincrement())
-  attachments  String[]
-  description  String
-  status       FeedbackStatus
-  personnel    PersonnelRecord @relation(fields: [personnelRecordId], references: [id])
-  personnelRecordId Int
+model PerformanceRecord {
+  id                 Int      @id @default(autoincrement())
+  attachments        Attachment[]  // Relationship to the Attachment model
+  description        String
+  status             FeedbackStatus
+  type               FeedbackType
+  createdAt          DateTime      @default(now())
+  updatedAt          DateTime      @updatedAt
+  personnel          PersonnelRecord @relation(fields: [personnelRecordId], references: [id])
+  personnelRecordId  Int
 }
 
-model Commendation {
-  id           Int      @id @default(autoincrement())
-  attachments  String[]
-  description  String
-  status       FeedbackStatus
-  personnel    PersonnelRecord @relation(fields: [personnelRecordId], references: [id])
-  personnelRecordId Int
+model Attachment {
+  id                   Int                  @id @default(autoincrement())
+  fileName             String
+  fileType             String
+  filePath             String
+  performanceRecordId  Int
+  performanceRecord    PerformanceRecord    @relation(fields: [performanceRecordId], references: [id])
+  createdAt            DateTime             @default(now())
 }
 
 model CaseFile {
@@ -172,36 +209,6 @@ model Narrative {
   caseFileId  Int
 }
 
-model Subject {
-  id                Int      @id @default(autoincrement())
-  portrait          String?
-  employeeId        Int?
-  titleName         String?
-  firstName         String
-  lastName          String
-  middleName        String?
-  nickName          String?
-  department        String
-  position          String
-  positionTitle     String
-  ethnicity         String
-  gender            String
-  accrualProfile    String?
-  employeeStatus    String?
-  dateHired         DateTime
-  separationDate    DateTime?
-  salary            Float
-  certifiedOfficer  Boolean
-  currentlyEmployed Boolean
-  complaints        Int
-  sustainedComplaints Int
-  pendingComplaints Int
-  commendations     Int
-  personelRecords   PersonnelRecord[]
-  organization      Organization @relation(fields: [organizationId], references: [id])
-  organizationId    Int
-}
-
 enum RequestMethodType {
   WEB
   EMAIL
@@ -213,6 +220,11 @@ enum FeedbackStatus {
   SUSTAINED
   PENDING
   NOT_SUSTAINED
+}
+
+enum FeedbackType {
+  COMPLAINT
+  COMMENDATION
 }
 
 enum CommunicationType {

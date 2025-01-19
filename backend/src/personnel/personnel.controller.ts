@@ -13,9 +13,12 @@ export class PersonnelController {
     return this.personnelService.create(createPersonnelDto);
   }
 
-  @Post('/all')
-  createBulk(@Body() createPersonnelDto: CreatePersonnelDto[]) {
-    return this.personnelService.createBulk(createPersonnelDto);
+  @Post('/all/:organizationId')
+  createBulk(
+    @Param('organizationId') organizationId: number,
+    @Body() createPersonnelDto: CreatePersonnelDto[],
+  ) {
+    return this.personnelService.createBulk(organizationId, createPersonnelDto);
   }
 
   @Get()
