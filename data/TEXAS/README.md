@@ -17,6 +17,44 @@ If access to the records I requested is going to take longer than 14 business da
 If you choose to deny the request in whole or in part, then you are required to respond in writing and state the statutory exception authorizing the withholding of all or part of the public record and the name and title or position of the person responsible for the denial.
 ```
 
+If you are wanting to request complaints and commendations on specific officers, you can use the following template:
+
+```
+Pursuant to the Texas Public Information Act (Texas Government Code, Chapter 552), I am formally requesting copies of the following public records:
+
+I request all documents, records, reports, and findings concerning complaints and/or commendations, whether closed or pending, for the following officers:
+
+- Officer 1
+- Officer 2
+- Officer 3
+
+To be more specific, I seek the following types of records:
+
+- Reports or memorandums generated as a result of a complaint or commendation.
+- Communications related to complaints or commendations, regardless of status (pending, sustained, awarded, or otherwise).
+- Records of disciplinary actions, including any hearings, outcomes, and imposed penalties.
+- Records of rewards, certificates, perks, or other forms of recognition awarded to these individuals.
+- Records of complaints, commendations, kudos, or praise, including:
+  - The nature of each complaint or commendation.
+  - The complainant’s identity (or any available details such as demographic, agency of employment, member of the public, press, etc.).
+  - The resolution or current status of each complaint.
+- Performance evaluations that reference complaints or commendations.
+- All performance evaluations for the listed officers.
+- Metadata related to digital media associated with complaints or commendations, including:
+  - Audio recordings
+  - Video recordings
+  - Photos
+  - Other relevant digital files
+  
+I understand that there may be fees associated with producing these records. Please provide a detailed, itemized quote before processing my request. If fulfilling this request will take longer than 14 business days, please notify me so we can establish a reasonable timeline for delivery.
+
+If you choose to deny this request, in whole or in part, please provide a written response citing the specific statutory exception that justifies the withholding of any portion of the records, along with the name, title, and position of the individual responsible for the denial.
+
+I can be reached at (972) 375-4431 or via email at timothysturm6@gmail.com for any questions or clarifications.
+
+Thank you for your time and assistance in fulfilling this request.
+```
+
 - [ ] 001  Anderson County, Palestine, Texas
 - [ ] 002  Andrews County, Andrews, Texas
 - [ ] 003  Angelina County, Lufkin, Texas                      
