@@ -16,9 +16,9 @@
         "votes": 2503,
         "percentage": 60.12,
         "voting_breakdown": {
-          "early_voting": 177,
-          "election_day": 1703,
-          "mail_in": 623
+          "absentee": 177,
+          "early_voting": 1703,
+          "election_day": 623
         }
       },
       {
@@ -27,9 +27,9 @@
         "votes": 1177,
         "percentage": 28.27,
         "voting_breakdown": {
-          "early_voting": 50,
-          "election_day": 816,
-          "mail_in": 311
+          "absentee": 50,
+          "early_voting": 816,
+          "election_day": 311
         }
       },
       {
@@ -38,9 +38,9 @@
         "votes": 483,
         "percentage": 11.6,
         "voting_breakdown": {
-          "early_voting": 17,
-          "election_day": 315,
-          "mail_in": 151
+          "absentee": 17,
+          "early_voting": 315,
+          "election_day": 151
         }
       },
       {
@@ -49,9 +49,9 @@
         "votes": 3185,
         "percentage": 100.0,
         "voting_breakdown": {
-          "early_voting": 187,
-          "election_day": 2186,
-          "mail_in": 812
+          "absentee": 187,
+          "early_voting": 2186,
+          "election_day": 812
         }
       },
       {
@@ -60,9 +60,9 @@
         "votes": 1945,
         "percentage": 50.15,
         "voting_breakdown": {
-          "early_voting": 140,
-          "election_day": 1349,
-          "mail_in": 456
+          "absentee": 140,
+          "early_voting": 1349,
+          "election_day": 456
         }
       },
       {
@@ -71,9 +71,9 @@
         "votes": 1296,
         "percentage": 33.42,
         "voting_breakdown": {
-          "early_voting": 46,
-          "election_day": 881,
-          "mail_in": 369
+          "absentee": 46,
+          "early_voting": 881,
+          "election_day": 369
         }
       },
       {
@@ -82,9 +82,9 @@
         "votes": 637,
         "percentage": 16.43,
         "voting_breakdown": {
-          "early_voting": 28,
-          "election_day": 427,
-          "mail_in": 182
+          "absentee": 28,
+          "early_voting": 427,
+          "election_day": 182
         }
       },
       {
@@ -93,9 +93,9 @@
         "votes": 3515,
         "percentage": 85.73,
         "voting_breakdown": {
-          "early_voting": 222,
-          "election_day": 2398,
-          "mail_in": 895
+          "absentee": 222,
+          "early_voting": 2398,
+          "election_day": 895
         }
       },
       {
@@ -104,9 +104,9 @@
         "votes": 585,
         "percentage": 14.27,
         "voting_breakdown": {
-          "early_voting": 16,
-          "election_day": 398,
-          "mail_in": 171
+          "absentee": 16,
+          "early_voting": 398,
+          "election_day": 171
         }
       },
       {
@@ -115,9 +115,9 @@
         "votes": 2912,
         "percentage": 72.24,
         "voting_breakdown": {
-          "early_voting": 160,
-          "election_day": 2065,
-          "mail_in": 687
+          "absentee": 160,
+          "early_voting": 2065,
+          "election_day": 687
         }
       },
       {
@@ -126,9 +126,9 @@
         "votes": 1119,
         "percentage": 27.76,
         "voting_breakdown": {
-          "early_voting": 73,
-          "election_day": 696,
-          "mail_in": 350
+          "absentee": 73,
+          "early_voting": 696,
+          "election_day": 350
         }
       },
       {
@@ -137,9 +137,9 @@
         "votes": 3047,
         "percentage": 76.21,
         "voting_breakdown": {
-          "early_voting": 199,
-          "election_day": 2092,
-          "mail_in": 756
+          "absentee": 199,
+          "early_voting": 2092,
+          "election_day": 756
         }
       },
       {
@@ -148,9 +148,9 @@
         "votes": 951,
         "percentage": 23.79,
         "voting_breakdown": {
-          "early_voting": 28,
-          "election_day": 644,
-          "mail_in": 279
+          "absentee": 28,
+          "early_voting": 644,
+          "election_day": 279
         }
       },
       {
@@ -159,9 +159,9 @@
         "votes": 2251,
         "percentage": 55.35,
         "voting_breakdown": {
-          "early_voting": 111,
-          "election_day": 1599,
-          "mail_in": 541
+          "absentee": 111,
+          "early_voting": 1599,
+          "election_day": 541
         }
       },
       {
@@ -170,9 +170,9 @@
         "votes": 1816,
         "percentage": 44.65,
         "voting_breakdown": {
-          "early_voting": 119,
-          "election_day": 1186,
-          "mail_in": 511
+          "absentee": 119,
+          "early_voting": 1186,
+          "election_day": 511
         }
       },
       {
@@ -181,9 +181,9 @@
         "votes": 3294,
         "percentage": 82.78,
         "voting_breakdown": {
-          "early_voting": 183,
-          "election_day": 2304,
-          "mail_in": 807
+          "absentee": 183,
+          "early_voting": 2304,
+          "election_day": 807
         }
       },
       {
@@ -192,9 +192,9 @@
         "votes": 685,
         "percentage": 17.22,
         "voting_breakdown": {
-          "early_voting": 36,
-          "election_day": 429,
-          "mail_in": 220
+          "absentee": 36,
+          "early_voting": 429,
+          "election_day": 220
         }
       },
       {
@@ -203,9 +203,9 @@
         "votes": 3401,
         "percentage": 84.64,
         "voting_breakdown": {
-          "early_voting": 206,
-          "election_day": 2370,
-          "mail_in": 825
+          "absentee": 206,
+          "early_voting": 2370,
+          "election_day": 825
         }
       },
       {
@@ -214,9 +214,9 @@
         "votes": 617,
         "percentage": 15.36,
         "voting_breakdown": {
-          "early_voting": 27,
-          "election_day": 371,
-          "mail_in": 219
+          "absentee": 27,
+          "early_voting": 371,
+          "election_day": 219
         }
       },
       {
@@ -225,9 +225,9 @@
         "votes": 2501,
         "percentage": 63.01,
         "voting_breakdown": {
-          "early_voting": 138,
-          "election_day": 1743,
-          "mail_in": 620
+          "absentee": 138,
+          "early_voting": 1743,
+          "election_day": 620
         }
       },
       {
@@ -236,9 +236,9 @@
         "votes": 1468,
         "percentage": 36.99,
         "voting_breakdown": {
-          "early_voting": 90,
-          "election_day": 962,
-          "mail_in": 416
+          "absentee": 90,
+          "early_voting": 962,
+          "election_day": 416
         }
       }
     ],

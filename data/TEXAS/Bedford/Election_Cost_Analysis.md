@@ -20,8 +20,8 @@ The single largest cost driver is the **cost-sharing multiplier** assigned by Ta
 | # | Date | Type | Positions/Issues | Ballots Cast | Registered Voters | Turnout |
 |---|------|------|-----------------|-------------|-------------------|---------|
 | 1 | May 4, 2019 | General | Place 3, Place 5 | 1,991 | 31,436 | 6.33% |
-| 2 | Nov 3, 2020 | Special (Proposition) | Prop A: Alcohol Sales | 24,111 | ~32,000 | ~75%¹ |
-| 3 | May 1, 2021 | General | Mayor, Place 1, Place 2 | 3,247 | ~32,583 | ~9.97% |
+| 2 | Nov 3, 2020 | Special (Proposition) | Prop A: Alcohol Sales | 24,111 | 32,126 | 75.04%¹ |
+| 3 | May 1, 2021 | General | Mayor, Place 1, Place 2 | 3,247 | 32,583 | 9.97% |
 | 4 | Aug 7, 2021 | Special | Place 4 (Unexpired Term) | 1,588 | 32,583 | 4.87% |
 | 5 | May 7, 2022 | General | Place 3, Place 5 | 2,632 | 33,141 | 7.94% |
 | 6 | Aug 20, 2022 | Special | Place 1 (Unexpired Term) | 1,694 | 33,332 | 5.08% |
@@ -240,8 +240,8 @@ Voter Turnout (% of Registered Voters)
 ═══════════════════════════════════════
 
 May 2019 General       ██████░░░░░░░░░░░░░░  6.33%
-Nov 2020 Special*      ██████████████████░░ ~75.0%  *with presidential election
-May 2021 General       ██████████░░░░░░░░░░ ~9.97%
+Nov 2020 Special*      ██████████████████░░  75.0%  *with presidential election
+May 2021 General       ██████████░░░░░░░░░░  9.97%
 Aug 2021 Special       █████░░░░░░░░░░░░░░░  4.87%
 May 2022 General       ████████░░░░░░░░░░░░  7.94%
 Aug 2022 Special       █████░░░░░░░░░░░░░░░  5.08%
@@ -262,16 +262,19 @@ May 2025 General       █████████░░░░░░░░░░
 | Year | Race | Winner | Votes | % | Runner-up | Votes | % |
 |------|------|--------|-------|---|-----------|-------|---|
 | 2019 | Place 3 | Amy Sabol | 1,281 | 65.7% | Don Coates | 668 | 34.3% |
-| 2019 | Place 5 | Ruth Culver | 1,552 | 100% | (unopposed) | — | — |
+| 2019 | Place 5 | Culver | 1,552 | 100% | (unopposed) | — | — |
 | 2020 | Prop A (Alcohol) | **For** | 19,403 | 80.5% | Against | 4,708 | 19.5% |
 | 2021 | Mayor | Michael Boyter | 2,557 | 83.7% | Kyle McDonald | 498 | 16.3% |
 | 2021 | Place 1 | Cindy Almendarez | 1,750 | 56.5% | Charles Baetz | 1,350 | 43.6% |
 | 2021 | Place 2 | Dan Cogan | 1,691 | 53.8% | Dave Gebhart | 1,452 | 46.2% |
 | 2021 Sp. | Place 4 | Rich Steves | 966 | 61.0% | Sal Caruso | 572 | 36.1% |
+| 2021 Sp. | Place 4 (3rd) | | | | Al Guerrero | 23 | 1.5% |
+| 2021 Sp. | Place 4 (4th) | | | | Charles Baetz | 24 | 1.5% |
 | 2022 | Place 3 | Amy Sabol | 2,015 | 100% | (unopposed) | — | — |
 | 2022 | Place 5 | Steve Farco | 1,291 | 52.8% | Charles Baetz | 786 | 32.2% |
 | 2022 | Place 5 (3rd) | | | | Michael A Dickens | 367 | 15.0% |
-| 2022 Sp. | Place 1 | Nichelle D. Dawkins | 884 | 52.2% | Jeron Liverman | 739 | 43.7% |
+| 2022 Sp. | Place 1 | Nichelle D. Dawkins | 884 | 52.2% | Jeron Liverman | 739 | 43.6% |
+| 2022 Sp. | Place 1 (3rd) | | | | Cecelia Cole | 70 | 4.1% |
 | 2024 | Mayor | Dan Cogan | 2,503 | 60.1% | Jim Griffin | 1,177 | 28.3% |
 | 2024 | Mayor (3rd) | | | | Eric 'BIGJUICY' Love | 483 | 11.6% |
 | 2024 | Place 1 | Nichelle D. Dawkins | 3,185 | 100% | (unopposed) | — | — |
@@ -293,6 +296,21 @@ May 2025 General       █████████░░░░░░░░░░
 | Prop G | 2,501 | 63.0% | 1,468 | 37.0% | **Passed** |
 
 *All seven charter amendments passed. Proposition D was the most contested at 55.4% approval.*
+
+#### Repeat Candidates and Political Continuity
+
+Several candidates appear across multiple election cycles:
+
+| Candidate | Elections | Races | Win/Loss | Notes |
+|-----------|-----------|-------|----------|-------|
+| Amy Sabol | 2019, 2022, 2025 | Place 3 (×3) | 3–0 | Won all three cycles; unopposed in 2022 |
+| Charles Baetz | 2021, 2021 Sp., 2022 | Place 1, Place 4, Place 5 | 0–3 | Ran in 3 consecutive elections; never won |
+| Steve Farco | 2022, 2025 | Place 5 (×2) | 2–0 | Won both; increased margin from 52.8% to 76.3% |
+| Jeron Liverman | 2022 Sp., 2024 | Place 1, Place 2 | 0–2 | Runner-up in both; declined from 43.7% to 33.4% |
+| Dan Cogan | 2021, 2024 | Place 2, Mayor | 2–0 | Won Place 2 (53.8%) then Mayor (60.1%) |
+| Nichelle D. Dawkins | 2022 Sp., 2024 | Place 1 (×2) | 2–0 | Won contested (52.2%) then unopposed |
+
+*Bedford council terms are 3 years (Places 1–6), so Place 3/5 races recur on a 2019→2022→2025 cycle and Place 1/2/Mayor on a 2021→2024 cycle.*
 
 ---
 
@@ -350,14 +368,21 @@ The 2024 cost spike reflects the charter amendment election requiring extensive 
 
 ### 5.5 Early Voting Dominates
 
-Across all elections with available data, **early voting consistently accounts for 60–80% of all ballots cast**:
+Across all elections with available voting breakdown data, **early voting consistently accounts for 55–75% of all ballots cast**:
 
 | Election | Absentee | Early Voting | Election Day |
 |----------|----------|-------------|-------------|
-| 2019 Place 3 | 1.1% | 69.8% | 29.1% |
-| 2021 Mayor | 1.9% | 64.3% | 33.7% |
-| 2024 Mayor | 5.9% | 68.0% | 26.0% |
-| 2025 Place 3 | 1.5% | 68.1% | 30.4% |
+| 2019 Place 3 | 1.2% | 71.8% | 26.9% |
+| 2019 Place 5 | 1.0% | 72.7% | 26.3% |
+| 2021 Sp. Place 4 | 3.7% | 75.4% | 20.9% |
+| 2022 Place 5 | 13.6% | 57.6% | 29.6% |
+| 2022 Sp. Place 1 | 16.2% | 62.6% | 21.3% |
+| 2024 Mayor | 7.1% | 68.0% | 24.9% |
+| 2024 Place 2 | 3.6% | 55.1% | 26.0% |
+| 2025 Place 3 | 1.7% | 68.3% | 30.0% |
+| 2025 Place 5 | 1.8% | 67.4% | 30.8% |
+
+*Note: The 2024 JSON originally had column labels mapped incorrectly (absentee→early_voting, early_voting→election_day, election_day→mail_in); corrected in the fifth audit pass by comparing column patterns to 2019, 2022, and 2025 results.*
 
 This is confirmed by cost data: **EVPA expenses represent 57% of Bedford's Tarrant County costs** in the 2024 invoice. Polling place personnel is the single largest line item ($4,678 of $10,187 = 46% of total).
 
@@ -366,6 +391,7 @@ This is confirmed by cost data: **EVPA expenses represent 57% of Bedford's Tarra
 | Year | Registered Voters | Source |
 |------|------------------|--------|
 | 2019 | 31,436 | Official results |
+| 2020 | 32,126 | Official results / Tarrant County data |
 | 2021 | 32,583 | Official results |
 | May 2022 | 33,141 | Official results |
 | Aug 2022 | 33,332 | Official results |
@@ -377,9 +403,26 @@ The registered voter count has been stable at approximately **31,000–33,400**.
 
 ---
 
-## 6. Remaining Data Gaps
+## 6. Invoice and Document Reference
 
-### 6.1 Documents Not Provided
+| Election | Tarrant County Invoice # | Tab | Mult. | Star-Telegram Invoice # | Translation Invoice # |
+|----------|--------------------------|-----|-------|-------------------------|----------------------|
+| May 2019 | *(not provided)* | — | — | 2019-05 (est.) | 2020-02, 2020-03⁺ |
+| Nov 2020 | 1800037357 | — | — | *(not provided)* | — |
+| May 2021 | 1800038619 | 8 | 0.0019 | 2021-05 (est.) | *(not provided)* |
+| Aug 2021 | 1800038755 | — | — | 2021-08 (est.) | *(not provided)* |
+| May 2022 | 1800039964 | 7 | 0.0030 | 2022-05 (est.) | *(not provided)* |
+| Aug 2022 | 1800040014 | 5 | 0.5000 | 2022-08 (est.) | *(not provided)* |
+| May 2024 | *(in detailed breakdown)* | 6 | 0.0027 | 2024-05 (est.) | AGA-INV-2398 |
+| May 2025 | 1800043854 | — | 0.0120 | 2025-05 (est.) | *(not provided)* |
+
+⁺ *The 2020 translation invoices cover February ($279.08) and March ($165.30) interpretation services related to the liquor petition/election, not tied to a specific election date.*
+
+---
+
+## 7. Remaining Data Gaps
+
+### 7.1 Documents Not Provided
 
 The FOIA response did **not** include:
 
@@ -393,9 +436,9 @@ The FOIA response did **not** include:
 | **Translation invoices for 2021, 2022, 2025** | Only 2024 and 2019 translation invoices were provided |
 | **2021 Special Election contract** | No contract for the Aug 2021 special election; cannot verify terms |
 
-### 6.2 OCR Quality Notes
+### 7.2 OCR Quality Notes
 
-All 16 scanned PDFs were processed via Tesseract OCR v5.4.0 at 300–400 DPI across three audit passes. Quality varied:
+All 16 scanned PDFs were processed via Tesseract OCR v5.4.0 at 300–400 DPI across four audit passes. Quality varied:
 
 - **High quality** (dollar amounts, totals reliable): Tarrant County invoices for 2020, 2021, 2022; Star-Telegram invoices; Translation invoices; 2025 Contract
 - **Medium quality** (some digits uncertain): 2022 general expenses section (page 3 of Tarrant County invoice had heavy artifacting)
@@ -409,9 +452,9 @@ All 16 scanned PDFs were processed via Tesseract OCR v5.4.0 at 300–400 DPI acr
 
 ---
 
-## 7. Conclusions
+## 8. Conclusions
 
-### 7.1 Key Findings
+### 8.1 Key Findings
 
 1. **Total documented election spending (2019–2025): approximately $126,755** across 8 elections — comprising ~$107,849 in Tarrant County fees, ~$14,700 in Star-Telegram notices, ~$765 in translation services, and ~$3,400 in petition verification
 2. **The cost-sharing multiplier varies by 263×** (0.19% to 50%) and is the dominant cost driver — more important than the type of election, number of races, or turnout
@@ -422,7 +465,7 @@ All 16 scanned PDFs were processed via Tesseract OCR v5.4.0 at 300–400 DPI acr
 7. **Early voting infrastructure accounts for 57% of election costs**, with personnel being the single largest expense
 8. **The corrected Aug 2021 special election invoice ($24,162.99) confirmed a 34% cost overrun** — the estimate of $18,000 from the council communiqué significantly underestimated actual costs
 
-### 7.2 Recommendations
+### 8.2 Recommendations
 
 1. **Avoid standalone special elections where legally permissible** — consolidating with scheduled elections saved $24,000+ (comparing the $80 November 2020 cost to the $24,674 August 2022 cost)
 2. **Budget 35% above Tarrant County estimates** based on the consistent pattern of cost overruns (16–34% variance observed)
@@ -432,6 +475,6 @@ All 16 scanned PDFs were processed via Tesseract OCR v5.4.0 at 300–400 DPI acr
 
 ---
 
-*Analysis generated from 40 FOIA records (24 text-extractable PDFs/DOCX, 16 OCR-processed scanned PDFs). All dollar figures are from invoices or contracts unless noted as estimates. Vote totals are from official certified results. All 40 documents have companion structured JSON files. Data verified through three independent audit passes (215 confirmations, 6 inherent OCR warnings, 0 issues).*
+*Analysis generated from 40 FOIA records (24 text-extractable PDFs/DOCX, 16 OCR-processed scanned PDFs). All dollar figures are from invoices or contracts unless noted as estimates. Vote totals are from official certified results. All 40 documents have companion structured JSON files. Data verified through four independent audit passes (357 confirmations, 5 inherent OCR warnings, 0 data issues) plus a fifth pass correcting the 2024 voting breakdown column mapping.*
 
 *Data source: City of Bedford response to Texas Public Information Act (Chapter 552) request for election cost records, January 2019–present.*
