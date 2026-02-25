@@ -18,7 +18,8 @@
           "absentee": 6,
           "early_voting": 441,
           "election_day": 221
-        }
+        },
+        "race": "Place 3"
       },
       {
         "candidate": "Amy Sabol",
@@ -28,7 +29,8 @@
           "absentee": 16,
           "early_voting": 920,
           "election_day": 345
-        }
+        },
+        "race": "Place 3"
       },
       {
         "candidate": "Culver",
@@ -38,7 +40,8 @@
           "absentee": 15,
           "early_voting": 1128,
           "election_day": 409
-        }
+        },
+        "race": "Place 5"
       }
     ],
     "voting_method_breakdown": {

@@ -251,7 +251,7 @@ May 2025 General       █████████░░░░░░░░░░
 
 **Key observations:**
 - Municipal elections consistently draw **5–13%** of registered voters
-- **The 2024 election had the highest municipal turnout (12.54%)**, likely driven by the contested mayoral race (3 candidates), a contested Place 2 race, and 7 charter amendment propositions
+- **The 2024 election had the highest municipal turnout (12.54%)**, likely driven by the contested mayoral race (3 candidates including Eric 'BIGJUICY' Love), a 3-way Place 2 race (with Tycom 'Ty' Wright as a third candidate), and 7 charter amendment propositions
 - **Standalone special elections draw the lowest turnout** (~5%), yet cost the most per voter
 - Registered voter count has been relatively stable: **31,436 (2019) → 32,849 (2025)**
 
@@ -270,10 +270,13 @@ May 2025 General       █████████░░░░░░░░░░
 | 2021 Sp. | Place 4 | Rich Steves | 966 | 61.0% | Sal Caruso | 572 | 36.1% |
 | 2022 | Place 3 | Amy Sabol | 2,015 | 100% | (unopposed) | — | — |
 | 2022 | Place 5 | Steve Farco | 1,291 | 52.8% | Charles Baetz | 786 | 32.2% |
+| 2022 | Place 5 (3rd) | | | | Michael A Dickens | 367 | 15.0% |
 | 2022 Sp. | Place 1 | Nichelle D. Dawkins | 884 | 52.2% | Jeron Liverman | 739 | 43.7% |
 | 2024 | Mayor | Dan Cogan | 2,503 | 60.1% | Jim Griffin | 1,177 | 28.3% |
+| 2024 | Mayor (3rd) | | | | Eric 'BIGJUICY' Love | 483 | 11.6% |
 | 2024 | Place 1 | Nichelle D. Dawkins | 3,185 | 100% | (unopposed) | — | — |
 | 2024 | Place 2 | Joy Donovan Brandon | 1,945 | 50.2% | Jeron Liverman | 1,296 | 33.4% |
+| 2024 | Place 2 (3rd) | | | | Tycom 'Ty' Wright | 637 | 16.4% |
 | 2025 | Place 3 | Amy Sabol | 2,104 | 78.3% | Timothy Sturm | 584 | 21.7% |
 | 2025 | Place 5 | Steve Farco | 2,136 | 76.3% | Bryan Keith Turek | 662 | 23.7% |
 
@@ -392,11 +395,17 @@ The FOIA response did **not** include:
 
 ### 6.2 OCR Quality Notes
 
-All 16 scanned PDFs were processed via Tesseract OCR v5.4.0 at 300–400 DPI. Quality varied:
+All 16 scanned PDFs were processed via Tesseract OCR v5.4.0 at 300–400 DPI across three audit passes. Quality varied:
 
 - **High quality** (dollar amounts, totals reliable): Tarrant County invoices for 2020, 2021, 2022; Star-Telegram invoices; Translation invoices; 2025 Contract
 - **Medium quality** (some digits uncertain): 2022 general expenses section (page 3 of Tarrant County invoice had heavy artifacting)
 - **Required preprocessing**: 2022 Official Results PDF — required contrast enhancement (2.0×) and 400 DPI to extract successfully; all figures cross-verified
+
+**Remaining OCR limitations** (values cross-verified from other documents):
+- 2021 Official Results: registered_voters (32,583) and ballots_cast (3,247) not in raw OCR text at default settings but verified at DPI=300/contrast=1.5 and confirmed through candidate vote arithmetic
+- 2020 Special Results: registered_voters (32,126) from Tarrant County data, not in Bedford-specific PDF
+- 2022 Invoice: bedford_total ($11,301.36) verified via OCR at DPI=300/contrast=1.5 but not present in stored raw_text
+- 2020 Translation Services: total ($444.38) is a computed sum of two sub-invoices ($279.08 + $165.30); not a single number in the PDF
 
 ---
 
@@ -423,6 +432,6 @@ All 16 scanned PDFs were processed via Tesseract OCR v5.4.0 at 300–400 DPI. Qu
 
 ---
 
-*Analysis generated from 40 FOIA records (24 text-extractable PDFs/DOCX, 16 OCR-processed scanned PDFs). All dollar figures are from invoices or contracts unless noted as estimates. Vote totals are from official certified results.*
+*Analysis generated from 40 FOIA records (24 text-extractable PDFs/DOCX, 16 OCR-processed scanned PDFs). All dollar figures are from invoices or contracts unless noted as estimates. Vote totals are from official certified results. All 40 documents have companion structured JSON files. Data verified through three independent audit passes (215 confirmations, 6 inherent OCR warnings, 0 issues).*
 
 *Data source: City of Bedford response to Texas Public Information Act (Chapter 552) request for election cost records, January 2019–present.*

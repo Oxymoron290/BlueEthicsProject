@@ -7,7 +7,9 @@
   "text_length": 10101,
   "data": {
     "election_date_mentioned": "May 4, 2024",
-    "positions_on_ballot": null,
+    "positions_on_ballot": [
+      "Charter Amendment Propositions A-G"
+    ],
     "costs_mentioned": null,
     "cost_estimates": null,
     "all_dollar_amounts": [],

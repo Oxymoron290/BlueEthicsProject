@@ -11,7 +11,7 @@
     "invoice_date": "10/17/2022",
     "election_date": "May 7, 2022",
     "tab_number": 7,
-    "multiplier": null,
+    "multiplier": 0.003,
     "bedford_total": 11301.36,
     "deposit_paid": 7340.0,
     "balance_due": 3952.12,
@@ -53,13 +53,7 @@
         "bedford_amount": 156.0
       }
     ],
-    "category_subtotals": [
-      {
-        "category": "EVPA",
-        "county_amount": 0.0,
-        "bedford_amount": 859020.71
-      }
-    ],
+    "category_subtotals": [],
     "election_subtotal": null,
     "admin_fee": null,
     "county_wide_total": null,

@@ -18,7 +18,8 @@
           "absentee": 35,
           "early_voting": 1438,
           "election_day": 631
-        }
+        },
+        "race": "Place 3"
       },
       {
         "candidate": "Timothy Sturm",
@@ -28,7 +29,8 @@
           "absentee": 4,
           "early_voting": 393,
           "election_day": 187
-        }
+        },
+        "race": "Place 3"
       },
       {
         "candidate": "Steve Farco",
@@ -38,7 +40,8 @@
           "absentee": 38,
           "early_voting": 1440,
           "election_day": 658
-        }
+        },
+        "race": "Place 5"
       },
       {
         "candidate": "Bryan Keith Turek",
@@ -48,7 +51,8 @@
           "absentee": 5,
           "early_voting": 457,
           "election_day": 200
-        }
+        },
+        "race": "Place 5"
       }
     ],
     "voting_method_breakdown": {

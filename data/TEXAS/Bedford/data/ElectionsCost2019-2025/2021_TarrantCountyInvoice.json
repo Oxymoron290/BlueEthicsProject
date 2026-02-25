@@ -185,28 +185,7 @@
         "bedford_amount": 35041.62
       }
     ],
-    "category_subtotals": [
-      {
-        "category": "EVPA",
-        "county_amount": 428320.56,
-        "bedford_amount": 443145.74
-      },
-      {
-        "category": "EVM",
-        "county_amount": 12130.0,
-        "bedford_amount": 11777.58
-      },
-      {
-        "category": "ED",
-        "county_amount": 450550.48,
-        "bedford_amount": 626302.87
-      },
-      {
-        "category": "General",
-        "county_amount": 48100.0,
-        "bedford_amount": 99609.25
-      }
-    ],
+    "category_subtotals": [],
     "election_subtotal": null,
     "admin_fee": null,
     "county_wide_total": null,
