@@ -1,0 +1,57 @@
+{
+  "source_file": "2021_OfficialResults.pdf",
+  "document_type": "official_results",
+  "year": 2021,
+  "election_subtype": "general",
+  "extraction_method": "embedded_text",
+  "text_length": 1228,
+  "data": {
+    "registered_voters": 32583,
+    "ballots_cast": 3247,
+    "turnout_percentage": 9.97,
+    "candidates": [
+      {
+        "candidate": "Michael Boyter",
+        "votes": 2557,
+        "percentage": 83.7,
+        "race": "Mayor"
+      },
+      {
+        "candidate": "Kyle McDonald",
+        "votes": 498,
+        "percentage": 16.3,
+        "race": "Mayor"
+      },
+      {
+        "candidate": "Cindy Almendarez",
+        "votes": 1750,
+        "percentage": 56.5,
+        "race": "Place 1"
+      },
+      {
+        "candidate": "Charles Baetz",
+        "votes": 1350,
+        "percentage": 43.6,
+        "race": "Place 1"
+      },
+      {
+        "candidate": "Dan Cogan",
+        "votes": 1691,
+        "percentage": 53.8,
+        "race": "Place 2"
+      },
+      {
+        "candidate": "Dave Gebhart",
+        "votes": 1452,
+        "percentage": 46.2,
+        "race": "Place 2"
+      }
+    ],
+    "voting_method_breakdown": {
+      "absentee_mail": 59,
+      "early_voting": 1966,
+      "election_day": 1030
+    }
+  },
+  "raw_text": "City of Bedford Mayor\nChoice\nKyle\nMcDonald\nMichael\nBoyter\nOFFICIAL\nRESULTS\nTarrant County\nJoint\nGeneral\nand\nSpecial\nElections\n5/ 1/ 2021\nPage\n1\nParty\nAbsentee Voting\nEarly Voting\nElection Day Voting\n27.\n59% \nTotal\n460\n4\n6. 78% \n301\n15. 31% \n193\n18. 74% \n498\n16. 30% \n56.\n44% \n55\n93. 22% \n1, 665\n84. 69% \n837\n81. 26% \n2, 557\n83. 70% \nCast Votes: \n59\n100.00% \n1, 966\n100. 00% \n1, 030\n100. 00% \n3,055\n100.00% \nUndervotes: \n2\n107\n83\n192\nEarly\nVoting\nOvervotes: \n0\n0\n0\n0\n46.\n25% \nCity of Bedford Council Member, Place 1\nChoice\nCharles\nBaetz\nCindy Almendarez\nParty\nCast Votes: \nUndervotes: \nOvervotes: \nCity of Bedford Council Member, Place 2\nChoice\nParty\nDave Gebhart\nDan\nCogan\nCast Votes: \nUndervotes: \nOvervotes: \nAbsentee Voting\nEarly Voting\nElection Day Voting\n16\n27.\n59% \n874\n44. 01% \n460\n43. 56% \n42\n72. 41% \n1, 112\n55. 99% \n596\n56.\n44% \n58\n100. 00% \n1, 986\n100. 00% \n1, 056\n100. 00% \n3\n87\n57\n0\n0\n0\nAbsentee Voting\nEarly\nVoting\nElection Day Voting\n20\n33. 33% \n938\n46. 55% \n494\n46.\n25% \n40\n66. 67% \n1, 077\n53. 45% \n574\n53. 75% \n60\n100. 00% \n2, 015\n100. 00% \n1, 068\n100. 00% \n1\n58\n45\n0\n0\n0\nEnd\nof report *** \nTotal\n1, 350\n43. 55% \n1, 750\n56. 45% \n3, 100\n100. 00% \n147\n0\nTotal\n1, 452\n46.20% \n1, 691\n53. 80% \n3, 143\n100. 00% \n104\n0"
+}

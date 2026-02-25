@@ -1,0 +1,33 @@
+{
+  "source_file": "2024_Bedord_TarrantCountyContract_Signed.pdf",
+  "document_type": "tarrant_county_contract",
+  "year": 2024,
+  "election_subtype": "general",
+  "extraction_method": "embedded_text",
+  "text_length": 2806,
+  "data": {
+    "election_date": "May 4, 2024",
+    "parties": [
+      "City of Bedford",
+      "Tarrant County"
+    ],
+    "multiplier": 1.0581,
+    "estimated_cost": null,
+    "deposit_required": null,
+    "registered_voters": null,
+    "tab_number": null,
+    "total_entities_in_election": null,
+    "all_dollar_amounts": [],
+    "contract_terms": [
+      "JOINT ELECTION AGREEMENT AND CONTRACT FOR ELECTION SERVICES",
+      "THIS CONTRACT for election services is made by and between the Tarrant County Elections Administrator and",
+      "The Tarrant County Elections Administrator and the political subdivisions mentioned above may be collectively",
+      "Texas Education Code Section 11.0581 for a joint May 4, 2024 election to be administered by the undersigned Tarrant",
+      "County Elections Administrator, hereinafter referred to as \"Elections Administrator.\" This term includes the Assistant",
+      "Elections Administrator in the Elections Administrator's absence or disability.",
+      "Joint Election Agreement and Contract for Election Services — Page 1"
+    ],
+    "contract_multiplier_note": "Value 1.0581 is the contract cost modifier (not Bedford's cost allocation percentage). Bedford's actual cost share multiplier is in the corresponding invoice."
+  },
+  "raw_text": "THE STATE OF TEXAS\nCOUNTY OF TARRANT\nJOINT ELECTION AGREEMENT AND CONTRACT FOR ELECTION SERVICES\nTHIS CONTRACT for election services is made by and between the Tarrant County Elections Administrator and\nthe following political subdivisions located entirely or partially inside the boundaries of Tarrant County:\nARLINGTON ISD\nCITY OF ROANOKE\nAZLE ISD\nCITY OF SAGINAW\nCASTLEBERRY ISD\nCITY OF SANSOM PARK\nCITY OF ARLINGTON\nCITY OF WATAUGA\nCITY OF AZLE\nCITY OF WESTWORTH VILLAGE\nCITY OF BEDFORD\nCROWLEY ISD\nCITY OF BLUE MOUND\nEVERMAN ISD\nCITY OF COLLEYVILLE\nGRAPEVINE-COLLEYVILLE ISD\nCITY OF EULESS\nKELLER ISD\nCITY OF FORT WORTH\nLEWISVILLE ISD\nCITY OF GRAND PRAIRIE\nMANSFIELD ISD\nCITY OF GRAPEVINE\nNORTHWEST ISD\nCITY OF HALTOM CITY\nTARRANT APPRAISAL DISTRICT\nCITY OF HASLET\nTOWN OF EDGECLIFF VILLAGE\nCITY OF KELLER\nTOWN OF FLOWER MOUND\nCITY OF KENNEDALE\nTOWN OF TROPHY CLUB\nCITY OF NORTH RICHLAND HILLS\nTOWN OF WESTLAKE\nCITY OF PELICAN BAY\nVIRIDIAN MUNICIPAL MANAGEMENT\nCITY OF RICHLAND HILLS\nWHITE SETTLEMENT ISD\nCITY OF RIVER OAKS\nThe Tarrant County Elections Administrator and the political subdivisions mentioned above may be collectively\nreferred to as \"Parties\" or individually as a \"Party\".\nThis Contract is made pursuant to Texas Election Code Sections 31.092 and 271.002 - \n271.004, if applicable, and\nTexas Education Code Section 11.0581 for a joint May 4, 2024 election to be administered by the undersigned Tarrant\nCounty Elections Administrator, hereinafter referred to as \"Elections Administrator.\" This term includes the Assistant\nElections Administrator in the Elections Administrator's absence or disability.\nRECITALS\nEach Participating Authority listed above plans to hold a general and/or special election on May 4, 2024. If a run\noff election or a repeat election is necessary because of legal action, the date of that election will be June 15, 2024.\nThe County owns an electronic voting system, the Hart InterCivic Verity Voting System (Version 2.4), which has\nbeen duly approved by the Secretary of State pursuant to Texas Election Code Chapter 122, as amended, and is compliant\nwith the accessibility requirements for persons with disabilities set forth by Texas Election Code Section 61.012. The\ncontracting political subdivisions, also known interchangeably as \"Entities\" or \"Participating Authority(ies)\", desire to use the\nCounty's electronic voting system and to compensate the County for such use and to share in certain other expenses\nconnected with joint elections in accordance with the applicable provisions of Chapters 31 and 271 of the Texas Election\nCode, as amended. The entity desires to contract for the voting system as described, in tandem with the County's elections\nJoint Election Agreement and Contract for Election Services — Page 1\nEA Initials \nEntity Rep Initials"
+}

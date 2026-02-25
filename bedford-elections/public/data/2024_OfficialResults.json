@@ -1,0 +1,252 @@
+{
+  "source_file": "2024_OfficialResults.pdf",
+  "document_type": "official_results",
+  "year": 2024,
+  "election_subtype": "general",
+  "extraction_method": "embedded_text",
+  "text_length": 4033,
+  "data": {
+    "ballots_cast": 4186,
+    "registered_voters": 33388,
+    "turnout_percentage": 12.54,
+    "candidates": [
+      {
+        "candidate": "Dan Cogan",
+        "race": "Mayor",
+        "votes": 2503,
+        "percentage": 60.12,
+        "voting_breakdown": {
+          "absentee": 177,
+          "early_voting": 1703,
+          "election_day": 623
+        }
+      },
+      {
+        "candidate": "Jim Griffin",
+        "race": "Mayor",
+        "votes": 1177,
+        "percentage": 28.27,
+        "voting_breakdown": {
+          "absentee": 50,
+          "early_voting": 816,
+          "election_day": 311
+        }
+      },
+      {
+        "candidate": "Eric 'BIGJUICY' Love",
+        "race": "Mayor",
+        "votes": 483,
+        "percentage": 11.6,
+        "voting_breakdown": {
+          "absentee": 17,
+          "early_voting": 315,
+          "election_day": 151
+        }
+      },
+      {
+        "candidate": "Nichelle D. Dawkins",
+        "race": "Place 1",
+        "votes": 3185,
+        "percentage": 100.0,
+        "voting_breakdown": {
+          "absentee": 187,
+          "early_voting": 2186,
+          "election_day": 812
+        }
+      },
+      {
+        "candidate": "Joy Donovan Brandon",
+        "race": "Place 2",
+        "votes": 1945,
+        "percentage": 50.15,
+        "voting_breakdown": {
+          "absentee": 140,
+          "early_voting": 1349,
+          "election_day": 456
+        }
+      },
+      {
+        "candidate": "Jeron Liverman",
+        "race": "Place 2",
+        "votes": 1296,
+        "percentage": 33.42,
+        "voting_breakdown": {
+          "absentee": 46,
+          "early_voting": 881,
+          "election_day": 369
+        }
+      },
+      {
+        "candidate": "Tycom 'Ty' Wright",
+        "race": "Place 2",
+        "votes": 637,
+        "percentage": 16.43,
+        "voting_breakdown": {
+          "absentee": 28,
+          "early_voting": 427,
+          "election_day": 182
+        }
+      },
+      {
+        "candidate": "Yes",
+        "race": "Proposition A",
+        "votes": 3515,
+        "percentage": 85.73,
+        "voting_breakdown": {
+          "absentee": 222,
+          "early_voting": 2398,
+          "election_day": 895
+        }
+      },
+      {
+        "candidate": "No",
+        "race": "Proposition A",
+        "votes": 585,
+        "percentage": 14.27,
+        "voting_breakdown": {
+          "absentee": 16,
+          "early_voting": 398,
+          "election_day": 171
+        }
+      },
+      {
+        "candidate": "Yes",
+        "race": "Proposition B",
+        "votes": 2912,
+        "percentage": 72.24,
+        "voting_breakdown": {
+          "absentee": 160,
+          "early_voting": 2065,
+          "election_day": 687
+        }
+      },
+      {
+        "candidate": "No",
+        "race": "Proposition B",
+        "votes": 1119,
+        "percentage": 27.76,
+        "voting_breakdown": {
+          "absentee": 73,
+          "early_voting": 696,
+          "election_day": 350
+        }
+      },
+      {
+        "candidate": "Yes",
+        "race": "Proposition C",
+        "votes": 3047,
+        "percentage": 76.21,
+        "voting_breakdown": {
+          "absentee": 199,
+          "early_voting": 2092,
+          "election_day": 756
+        }
+      },
+      {
+        "candidate": "No",
+        "race": "Proposition C",
+        "votes": 951,
+        "percentage": 23.79,
+        "voting_breakdown": {
+          "absentee": 28,
+          "early_voting": 644,
+          "election_day": 279
+        }
+      },
+      {
+        "candidate": "Yes",
+        "race": "Proposition D",
+        "votes": 2251,
+        "percentage": 55.35,
+        "voting_breakdown": {
+          "absentee": 111,
+          "early_voting": 1599,
+          "election_day": 541
+        }
+      },
+      {
+        "candidate": "No",
+        "race": "Proposition D",
+        "votes": 1816,
+        "percentage": 44.65,
+        "voting_breakdown": {
+          "absentee": 119,
+          "early_voting": 1186,
+          "election_day": 511
+        }
+      },
+      {
+        "candidate": "Yes",
+        "race": "Proposition E",
+        "votes": 3294,
+        "percentage": 82.78,
+        "voting_breakdown": {
+          "absentee": 183,
+          "early_voting": 2304,
+          "election_day": 807
+        }
+      },
+      {
+        "candidate": "No",
+        "race": "Proposition E",
+        "votes": 685,
+        "percentage": 17.22,
+        "voting_breakdown": {
+          "absentee": 36,
+          "early_voting": 429,
+          "election_day": 220
+        }
+      },
+      {
+        "candidate": "Yes",
+        "race": "Proposition F",
+        "votes": 3401,
+        "percentage": 84.64,
+        "voting_breakdown": {
+          "absentee": 206,
+          "early_voting": 2370,
+          "election_day": 825
+        }
+      },
+      {
+        "candidate": "No",
+        "race": "Proposition F",
+        "votes": 617,
+        "percentage": 15.36,
+        "voting_breakdown": {
+          "absentee": 27,
+          "early_voting": 371,
+          "election_day": 219
+        }
+      },
+      {
+        "candidate": "Yes",
+        "race": "Proposition G",
+        "votes": 2501,
+        "percentage": 63.01,
+        "voting_breakdown": {
+          "absentee": 138,
+          "early_voting": 1743,
+          "election_day": 620
+        }
+      },
+      {
+        "candidate": "No",
+        "race": "Proposition G",
+        "votes": 1468,
+        "percentage": 36.99,
+        "voting_breakdown": {
+          "absentee": 90,
+          "early_voting": 962,
+          "election_day": 416
+        }
+      }
+    ],
+    "voting_method_breakdown": {
+      "absentee_mail": 244,
+      "early_voting": 2834,
+      "election_day": 1085
+    }
+  },
+  "raw_text": "City of Bedford Cumulative \nReport\nEN24 Joint Elections\nRun Time\nRun Date\n11:21 AM\n05/13/2024\nTarrant County\nJoint General and Special Elections\n5/4/2024\nPage 1\nOfficial Results\nRegistered Voters\n4186 of 33388 = 12.54%\nPrecincts Reporting\n0 of 21 = 0.00%\nCity of Bedford Mayor\nChoice\nParty\nAbsentee Voting\nEarly Voting\nElection Day Voting\nTotal\nEric 'BIGJUICY' Love\n17\n6.97%\n315\n11.12%\n151\n13.92%\n483\n11.60%\nJim Griffin\n50\n20.49%\n816\n28.79%\n311\n28.66%\n1,177\n28.27%\nDan Cogan\n177\n72.54%\n1,703\n60.09%\n623\n57.42%\n2,503\n60.12%\nCast Votes:\n244\n100.00%\n2,834\n100.00%\n1,085\n100.00%\n4,163\n100.00%\nUndervotes:\n3\n13\n7\n23\nOvervotes:\n0\n0\n0\n0\nCity of Bedford Council Member, Place 1\nChoice\nParty\nAbsentee Voting\nEarly Voting\nElection Day Voting\nTotal\nNichelle D. Dawkins\n187\n100.00%\n2,186\n100.00%\n812\n100.00%\n3,185\n100.00%\nCast Votes:\n187\n100.00%\n2,186\n100.00%\n812\n100.00%\n3,185\n100.00%\nUndervotes:\n60\n661\n280\n1,001\nOvervotes:\n0\n0\n0\n0\nCity of Bedford Council Member, Place 2\nChoice\nParty\nAbsentee Voting\nEarly Voting\nElection Day Voting\nTotal\nTycom 'Ty' Wright\n28\n13.08%\n427\n16.07%\n182\n18.07%\n637\n16.43%\nJoy Donovan Brandon\n140\n65.42%\n1,349\n50.77%\n456\n45.28%\n1,945\n50.15%\nJeron Liverman\n46\n21.50%\n881\n33.16%\n369\n36.64%\n1,296\n33.42%\nCast Votes:\n214\n100.00%\n2,657\n100.00%\n1,007\n100.00%\n3,878\n100.00%\nUndervotes:\n33\n190\n85\n308\nOvervotes:\n0\n0\n0\n0\nCity of Bedford Proposition A\nChoice\nParty\nAbsentee Voting\nEarly Voting\nElection Day Voting\nTotal\nYes\n222\n93.28%\n2,398\n85.77%\n895\n83.96%\n3,515\n85.73%\nNo\n16\n6.72%\n398\n14.23%\n171\n16.04%\n585\n14.27%\nCast Votes:\n238\n100.00%\n2,796\n100.00%\n1,066\n100.00%\n4,100\n100.00%\nUndervotes:\n9\n51\n26\n86\nOvervotes:\n0\n0\n0\n0\nCity of Bedford Cumulative \nReport\nEN24 Joint Elections\nRun Time\nRun Date\n11:21 AM\n05/13/2024\nTarrant County\nJoint General and Special Elections\n5/4/2024\nPage 2\nOfficial Results\nRegistered Voters\n4186 of 33388 = 12.54%\nPrecincts Reporting\n0 of 21 = 0.00%\nCity of Bedford Proposition B\nChoice\nParty\nAbsentee Voting\nEarly Voting\nElection Day Voting\nTotal\nYes\n160\n68.67%\n2,065\n74.79%\n687\n66.25%\n2,912\n72.24%\nNo\n73\n31.33%\n696\n25.21%\n350\n33.75%\n1,119\n27.76%\nCast Votes:\n233\n100.00%\n2,761\n100.00%\n1,037\n100.00%\n4,031\n100.00%\nUndervotes:\n14\n86\n55\n155\nOvervotes:\n0\n0\n0\n0\nCity of Bedford Proposition C\nChoice\nParty\nAbsentee Voting\nEarly Voting\nElection Day Voting\nTotal\nYes\n199\n87.67%\n2,092\n76.46%\n756\n73.04%\n3,047\n76.21%\nNo\n28\n12.33%\n644\n23.54%\n279\n26.96%\n951\n23.79%\nCast Votes:\n227\n100.00%\n2,736\n100.00%\n1,035\n100.00%\n3,998\n100.00%\nUndervotes:\n20\n111\n57\n188\nOvervotes:\n0\n0\n0\n0\nCity of Bedford Proposition D\nChoice\nParty\nAbsentee Voting\nEarly Voting\nElection Day Voting\nTotal\nYes\n111\n48.26%\n1,599\n57.41%\n541\n51.43%\n2,251\n55.35%\nNo\n119\n51.74%\n1,186\n42.59%\n511\n48.57%\n1,816\n44.65%\nCast Votes:\n230\n100.00%\n2,785\n100.00%\n1,052\n100.00%\n4,067\n100.00%\nUndervotes:\n17\n62\n40\n119\nOvervotes:\n0\n0\n0\n0\nCity of Bedford Proposition E\nChoice\nParty\nAbsentee Voting\nEarly Voting\nElection Day Voting\nTotal\nYes\n183\n83.56%\n2,304\n84.30%\n807\n78.58%\n3,294\n82.78%\nNo\n36\n16.44%\n429\n15.70%\n220\n21.42%\n685\n17.22%\nCast Votes:\n219\n100.00%\n2,733\n100.00%\n1,027\n100.00%\n3,979\n100.00%\nUndervotes:\n28\n114\n65\n207\nOvervotes:\n0\n0\n0\n0\nCity of Bedford Cumulative \nReport\nEN24 Joint Elections\nRun Time\nRun Date\n11:21 AM\n05/13/2024\nTarrant County\nJoint General and Special Elections\n5/4/2024\nPage 3\nOfficial Results\nRegistered Voters\n4186 of 33388 = 12.54%\nPrecincts Reporting\n0 of 21 = 0.00%\nCity of Bedford Proposition F\nChoice\nParty\nAbsentee Voting\nEarly Voting\nElection Day Voting\nTotal\nYes\n206\n88.41%\n2,370\n86.46%\n825\n79.02%\n3,401\n84.64%\nNo\n27\n11.59%\n371\n13.54%\n219\n20.98%\n617\n15.36%\nCast Votes:\n233\n100.00%\n2,741\n100.00%\n1,044\n100.00%\n4,018\n100.00%\nUndervotes:\n14\n106\n48\n168\nOvervotes:\n0\n0\n0\n0\nCity of Bedford Proposition G\nChoice\nParty\nAbsentee Voting\nEarly Voting\nElection Day Voting\nTotal\nYes\n138\n60.53%\n1,743\n64.44%\n620\n59.85%\n2,501\n63.01%\nNo\n90\n39.47%\n962\n35.56%\n416\n40.15%\n1,468\n36.99%\nCast Votes:\n228\n100.00%\n2,705\n100.00%\n1,036\n100.00%\n3,969\n100.00%\nUndervotes:\n18\n142\n56\n216\nOvervotes:\n1\n0\n0\n1\n*** End of report ***\nProvisional Ballots"
+}

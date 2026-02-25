@@ -1,0 +1,65 @@
+{
+  "source_file": "2025_OfficialResults.pdf",
+  "document_type": "official_results",
+  "year": 2025,
+  "election_subtype": "general",
+  "extraction_method": "embedded_text",
+  "text_length": 901,
+  "data": {
+    "ballots_cast": 2958,
+    "registered_voters": 32849,
+    "turnout_percentage": 9.0,
+    "candidates": [
+      {
+        "candidate": "Amy Sabol",
+        "votes": 2104,
+        "percentage": 78.27,
+        "voting_breakdown": {
+          "absentee": 35,
+          "early_voting": 1438,
+          "election_day": 631
+        },
+        "race": "Place 3"
+      },
+      {
+        "candidate": "Timothy Sturm",
+        "votes": 584,
+        "percentage": 21.73,
+        "voting_breakdown": {
+          "absentee": 4,
+          "early_voting": 393,
+          "election_day": 187
+        },
+        "race": "Place 3"
+      },
+      {
+        "candidate": "Steve Farco",
+        "votes": 2136,
+        "percentage": 76.34,
+        "voting_breakdown": {
+          "absentee": 38,
+          "early_voting": 1440,
+          "election_day": 658
+        },
+        "race": "Place 5"
+      },
+      {
+        "candidate": "Bryan Keith Turek",
+        "votes": 662,
+        "percentage": 23.66,
+        "voting_breakdown": {
+          "absentee": 5,
+          "early_voting": 457,
+          "election_day": 200
+        },
+        "race": "Place 5"
+      }
+    ],
+    "voting_method_breakdown": {
+      "absentee_mail": 39,
+      "early_voting": 1831,
+      "election_day": 818
+    }
+  },
+  "raw_text": "City of Bedford\n0525\nRun Time\nRun Date\n2:39 PM\n05/12/2025\nTarrant County\nJoint General and Special Elections\n5/3/2025\nPage 1\nOfficial Results\nRegistered Voters\n2958 of 32849 = 9.00%\nPrecincts Reporting\n0 of 21 = 0.00%\nCity of Bedford Council Member, Place 3\nChoice\nParty\nAbsentee Voting\nEarly Voting\nElection Day Voting\nTotal\nAmy Sabol\n35\n89.74%\n1,438\n78.54%\n631\n77.14%\n2,104\n78.27%\nTimothy Sturm\n4\n10.26%\n393\n21.46%\n187\n22.86%\n584\n21.73%\nCast Votes:\n39\n100.00%\n1,831\n100.00%\n818\n100.00%\n2,688\n100.00%\nUndervotes:\n6\n166\n98\n270\nOvervotes:\n0\n0\n0\n0\nCity of Bedford Council Member, Place 5\nChoice\nParty\nAbsentee Voting\nEarly Voting\nElection Day Voting\nTotal\nSteve Farco\n38\n88.37%\n1,440\n75.91%\n658\n76.69%\n2,136\n76.34%\nBryan Keith Turek\n5\n11.63%\n457\n24.09%\n200\n23.31%\n662\n23.66%\nCast Votes:\n43\n100.00%\n1,897\n100.00%\n858\n100.00%\n2,798\n100.00%\nUndervotes:\n2\n100\n58\n160\nOvervotes:\n0\n0\n0\n0\n*** End of report ***"
+}
