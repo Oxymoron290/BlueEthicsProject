@@ -1,0 +1,20 @@
+{
+  "source_file": "2020_OfficialResults_Special.pdf",
+  "document_type": "official_results",
+  "year": 2020,
+  "election_subtype": "special",
+  "extraction_method": "embedded_text",
+  "text_length": 448,
+  "data": {
+    "registered_voters": null,
+    "ballots_cast": null,
+    "turnout_percentage": null,
+    "candidates": null,
+    "voting_method_breakdown": {
+      "absentee_mail": 2245,
+      "early_voting": 19549,
+      "election_day": 2317
+    }
+  },
+  "raw_text": "City of Bedford Proposition A\nChoice\nFor\nAgainst\nTarrant County\nJoint\nGeneral\nand\nSpecial\nElections\n11/\n3/ 2020\nPage\n1\nParty\nAbsentee Voting\nEarly Voting\nElection Day Voting\nTotal\n1, 653\n73. 63% \n15, 830\n80. 98% \n1, 920\n82. 87% \n19, 403\n80. 47% \n592\n26.37% \n3, 719\n19. 02% \n397\n17. 13% \n4, 708\n19. 53% \nCast Votes: \n2, 245\n100. 00% \n19,549\n100.00% \n2, 317\n100. 00% \n24, 111\n100. 00% \nUndervotes: \n90\nOvervotes: \n0\n426\n84\n600\n0\n0\n0\nEnd of report ***"
+}

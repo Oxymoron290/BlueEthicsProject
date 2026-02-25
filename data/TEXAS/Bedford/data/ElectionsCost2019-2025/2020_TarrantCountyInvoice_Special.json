@@ -1,0 +1,26 @@
+{
+  "source_file": "2020_TarrantCountyInvoice_Special.pdf",
+  "document_type": "tarrant_county_invoice",
+  "year": 2020,
+  "election_subtype": "special",
+  "extraction_method": "ocr",
+  "text_length": 889,
+  "data": {
+    "invoice_number": "1800038092",
+    "check_number": "145942",
+    "invoice_date": "02/09/2021",
+    "election_date": null,
+    "tab_number": null,
+    "multiplier": null,
+    "bedford_total": 80.0,
+    "deposit_paid": null,
+    "balance_due": null,
+    "line_items": null,
+    "election_subtotal": null,
+    "admin_fee": null,
+    "county_wide_total": null,
+    "refund_credit": null,
+    "election_day_polls": null
+  },
+  "raw_text": "Check No. 145942\n\nDATE NET AMOUNT\n02/22/2021 } 38092 November 2020 Election 80.00\nTotal: $80.00\n02/25/2021 $80.00\nEighty and 00/100 Dollars\n\nTARRANT COUNTY ELECTIONS\n\nADMINISTRATION\n\n100 E. WEATHERFORD STREET\n\nROOM 506\n\nFORT WORTH, TX 76196-0103\n\nTarrant County\nElections\n\nwnat,\nTo: 20019 I\n\nCITY OF BEDFORD Invoice\n\nATTN: MICHAEL WELLS ,\n\n2000 FOREST RIDGE DRIVE Invoice Number: 1800038092\n\nBEDFORD TX 76021-1895 Invoice Date : 02/09/2021\n\nTerm : NET DUE ON RECHIPT\n\nContact: .\nMaria Serna 817-831-6476\n\nPage\n1/il\nItem No. Description Amount _\nNovember 03, 2020\nTotal Cost of Election: | $80.00\nLess Deposit: S$ 0.00\n001 17100-2021 Contract Election. 80.00\n\n“Total Invoice S$ 80.00\n\n[01-10-[2- 3309\n\nMAM\n\nPlease return a copy of this invotce.\nMAIL ALL CHECKS PAYABLE TO\nTARRANT COUNTY\n% County Auditor\n100 E. Weatherford Street, Room 506\nFort Worth, Texas 76196-0103\n\nPhone; (8171884-4205"
+}

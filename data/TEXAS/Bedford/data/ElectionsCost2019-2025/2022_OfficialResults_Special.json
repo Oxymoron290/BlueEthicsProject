@@ -1,0 +1,51 @@
+{
+  "source_file": "2022_OfficialResults_Special.pdf",
+  "document_type": "official_results",
+  "year": 2022,
+  "election_subtype": "special",
+  "extraction_method": "embedded_text",
+  "text_length": 621,
+  "data": {
+    "ballots_cast": 1694,
+    "registered_voters": 33332,
+    "turnout_percentage": 5.08,
+    "candidates": [
+      {
+        "candidate": "Cecelia Cole",
+        "votes": 70,
+        "percentage": 4.13,
+        "voting_breakdown": {
+          "absentee": 42,
+          "early_voting": 25,
+          "election_day": 3
+        }
+      },
+      {
+        "candidate": "Jeron Liverman",
+        "votes": 739,
+        "percentage": 43.65,
+        "voting_breakdown": {
+          "absentee": 86,
+          "early_voting": 492,
+          "election_day": 161
+        }
+      },
+      {
+        "candidate": "Nichelle D. Dawkins",
+        "votes": 884,
+        "percentage": 52.22,
+        "voting_breakdown": {
+          "absentee": 143,
+          "early_voting": 553,
+          "election_day": 188
+        }
+      }
+    ],
+    "voting_method_breakdown": {
+      "absentee_mail": 271,
+      "early_voting": 1070,
+      "election_day": 352
+    }
+  },
+  "raw_text": "City of Bedford Council Member, Place 1 (Unexpired Term)\nChoice\nParty\nAbsentee\nVoting\nEarly Voting\nElection\nDay Voting\nTotal\nCecelia Cole\n42\n15.50%\n25\n2.34%\n3\n0.85%\n70\n4.13%\nJeron Liverman\n86\n31.73%\n492\n45.98%\n161\n45.74%\n739\n43.65%\nNichelle D. Dawkins\n143\n52.77%\n553\n51.68%\n188\n53.41%\n884\n52.22%\nCast Votes:\n271\n100.00%\n1,070\n100.00%\n352\n100.00%\n1,693\n100.00%\nUndervotes:\n0\n1\n0\n1\nOvervotes:\n0\n0\n0\n0\nEnd of report ***\n06 BED\nOfficial\nRun Time\nRun Date\n11:24 AM\n08/29/2022\nTarrant County\nJoint Special Elections\n8/ 20/ 2022\nPage 1\nOfficial Results\nRegistered Voters\n1694 of 33332 = 5.08%\nPrecincts Reporting\n0 of 21 = 0.00%"
+}

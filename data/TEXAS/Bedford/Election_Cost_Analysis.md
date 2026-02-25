@@ -7,7 +7,7 @@
 
 ## Executive Summary
 
-Between 2019 and 2025, the City of Bedford conducted **8 completed elections** (5 general, 3 special/proposition) at a **total verified cost of at least $87,622** in Tarrant County administration fees alone. When adding Star-Telegram legal notice publication, translation services, and the 2020 liquor petition verification, the **total documented election spending reaches approximately $101,508**.
+Between 2019 and 2025, the City of Bedford conducted **8 completed elections** (5 general, 3 special/proposition) at a **total verified cost of at least $107,849** in Tarrant County administration fees alone. When adding Star-Telegram legal notice publication, translation services, and the 2020 liquor petition verification, the **total documented election spending reaches approximately $126,755**.
 
 The single largest cost driver is the **cost-sharing multiplier** assigned by Tarrant County, which ranges from **0.0019 (0.19%)** in large joint elections to **0.5000 (50%)** in small standalone special elections — a **263× difference**. This multiplier, more than any other factor, determines what Bedford pays.
 
@@ -23,14 +23,13 @@ The single largest cost driver is the **cost-sharing multiplier** assigned by Ta
 | 2 | Nov 3, 2020 | Special (Proposition) | Prop A: Alcohol Sales | 24,111 | ~32,000 | ~75%¹ |
 | 3 | May 1, 2021 | General | Mayor, Place 1, Place 2 | 3,247 | ~32,583 | ~9.97% |
 | 4 | Aug 7, 2021 | Special | Place 4 (Unexpired Term) | 1,588 | 32,583 | 4.87% |
-| 5 | May 7, 2022 | General | Place 3, Place 5 | N/A² | ~33,000 | N/A² |
+| 5 | May 7, 2022 | General | Place 3, Place 5 | 2,632 | 33,141 | 7.94% |
 | 6 | Aug 20, 2022 | Special | Place 1 (Unexpired Term) | 1,694 | 33,332 | 5.08% |
 | 7 | May 4, 2024 | General + Charter | Mayor, Place 1, Place 2, Props A–G | 4,186 | 33,388 | 12.54% |
 | 8 | May 3, 2025 | General | Place 3, Place 5 | 2,958 | 32,849 | 9.00% |
 | 9 | May 2, 2026 | General (Upcoming) | Place 4, Place 6 | — | — | — |
 
 ¹ *The 2020 special election coincided with the November presidential general election, dramatically inflating turnout.*
-² *Official results PDF was a scanned image that did not yield readable text even with OCR.*
 
 ---
 
@@ -45,14 +44,14 @@ All invoices have been read — either from embedded text or via OCR of scanned 
 | May 4, 2019 | General | — | — | — | **$11,750**³ | — | — |
 | Nov 3, 2020 | Special (Prop) | — | — | — | **$80.00** | $0.00 | $80.00 |
 | May 1, 2021 | General | 8 | 0.0019 | $1,298,918.98 | **$5,313.74** | $3,610.00 | $1,703.74 |
-| Aug 7, 2021 | Special | — | — | — | **~$18,000**³ | — | — |
+| Aug 7, 2021 | Special | — | — | — | **$24,162.99** | $0.00 | $24,162.99 |
 | May 7, 2022 | General | 7 | 0.0030 | $1,606,913.05⁵ | **$11,301.36** | $7,340.00 | $3,952.12⁴ |
 | Aug 20, 2022 | Special | 5 | **0.5000** | $45,382.31 | **$24,674.18** | $17,360.00 | $7,314.18 |
 | May 4, 2024 | General + Charter | 6 | 0.0027 | $1,718,334.08 | **$10,187.34** | $7,140.00 | $3,047.34 |
 | May 3, 2025 | General | — | 0.0120 | ~$1,305,305⁶ | **$20,379.30** | $11,720.56 | $8,658.74 |
-| | | | | **Subtotal** | **$101,685.92** | | |
+| | | | | **Subtotal** | **$107,848.91** | | |
 
-³ *Estimated from council communiqué; actual invoice not provided or not separately identifiable.*
+³ *Estimated from council communiqué; actual invoice not provided.*
 ⁴ *Includes $9.24 refund credit from May 2021 election overpayment.*
 ⁵ *OCR approximation; some digits partially obscured.*
 ⁶ *Estimated from 2025 contract: total for all entities = $1,305,305.22.*
@@ -100,12 +99,12 @@ All invoices have been read — either from embedded text or via OCR of scanned 
 | May 2019 | $11,750.00³ | $675.00 | — | — | **$12,425.00**³ |
 | Nov 2020 | $80.00 | —⁷ | $444.38 | $3,395.18 | **$3,919.56** |
 | May 2021 | $5,313.74 | $1,543.50 | — | — | **$6,857.24** |
-| Aug 2021 | ~$18,000³ | $1,543.50 | — | — | **~$19,543.50**³ |
+| Aug 2021 | $24,162.99 | $1,543.50 | — | — | **$25,706.49** |
 | May 2022 | $11,301.36 | $1,543.50 | — | — | **$12,844.86** |
 | Aug 2022 | $24,674.18 | $1,543.50 | — | — | **$26,217.68** |
 | May 2024 | $10,187.34 | $6,235.83 | $320.93 | — | **$16,744.10** |
 | May 2025 | $20,379.30 | $1,660.89 | — | — | **$22,040.19** |
-| | | | | **TOTAL** | **≈$120,592** |
+| | | | | **TOTAL** | **≈$126,755** |
 
 ⁷ *The 2020 special election notice was likely included in the county-wide presidential election notice at no additional cost to Bedford.*
 
@@ -205,7 +204,7 @@ Total Election Cost to Bedford (All Sources)
 May 2019 General     ██████████████░░░░░░░░░░░░░░░░░░  $12,425
 Nov 2020 Special     ████░░░░░░░░░░░░░░░░░░░░░░░░░░░░  $3,920  (with petition)
 May 2021 General     ████████░░░░░░░░░░░░░░░░░░░░░░░░  $6,857
-Aug 2021 Special     ██████████████████████░░░░░░░░░░░  ~$19,544
+Aug 2021 Special     ██████████████████████████████░░░  $25,706
 May 2022 General     ██████████████░░░░░░░░░░░░░░░░░░░  $12,845
 Aug 2022 Special     ████████████████████████████░░░░░  $26,218
 May 2024 Gen+Charter █████████████████░░░░░░░░░░░░░░░░  $16,744
@@ -221,13 +220,14 @@ May 2025 General     ███████████████████�
 | May 2019 | $12,425 | 1,991 | **$6.24** | $0.40 |
 | Nov 2020 | $3,920 | 24,111 | **$0.16** | $0.12 |
 | May 2021 | $6,857 | 3,247 | **$2.11** | $0.21 |
-| Aug 2021 | ~$19,544 | 1,588 | **$12.31** | $0.60 |
+| Aug 2021 | $25,706 | 1,588 | **$16.19** | $0.79 |
+| May 2022 | $12,845 | 2,632 | **$4.88** | $0.39 |
 | Aug 2022 | $26,218 | 1,694 | **$15.48** | $0.79 |
 | May 2024 | $16,744 | 4,186 | **$4.00** | $0.50 |
 | May 2025 | $22,040 | 2,958 | **$7.45** | $0.67 |
-| **Average** | | | **$6.82** | |
+| **Average** | | | **$7.06** | |
 
-> **Standalone special elections cost $12–$15 per ballot cast**, while joint general elections cost **$2–$7 per ballot**. The November 2020 proposition cost just $0.16 per ballot by riding on the presidential election.
+> **Standalone special elections cost $15–$16 per ballot cast**, while joint general elections cost **$2–$7 per ballot**. The November 2020 proposition cost just $0.16 per ballot by riding on the presidential election.
 
 ---
 
@@ -243,6 +243,7 @@ May 2019 General       ██████░░░░░░░░░░░░░
 Nov 2020 Special*      ██████████████████░░ ~75.0%  *with presidential election
 May 2021 General       ██████████░░░░░░░░░░ ~9.97%
 Aug 2021 Special       █████░░░░░░░░░░░░░░░  4.87%
+May 2022 General       ████████░░░░░░░░░░░░  7.94%
 Aug 2022 Special       █████░░░░░░░░░░░░░░░  5.08%
 May 2024 Gen+Charter   █████████████░░░░░░░  12.54%
 May 2025 General       █████████░░░░░░░░░░░  9.00%
@@ -267,6 +268,8 @@ May 2025 General       █████████░░░░░░░░░░
 | 2021 | Place 1 | Cindy Almendarez | 1,750 | 56.5% | Charles Baetz | 1,350 | 43.6% |
 | 2021 | Place 2 | Dan Cogan | 1,691 | 53.8% | Dave Gebhart | 1,452 | 46.2% |
 | 2021 Sp. | Place 4 | Rich Steves | 966 | 61.0% | Sal Caruso | 572 | 36.1% |
+| 2022 | Place 3 | Amy Sabol | 2,015 | 100% | (unopposed) | — | — |
+| 2022 | Place 5 | Steve Farco | 1,291 | 52.8% | Charles Baetz | 786 | 32.2% |
 | 2022 Sp. | Place 1 | Nichelle D. Dawkins | 884 | 52.2% | Jeron Liverman | 739 | 43.7% |
 | 2024 | Mayor | Dan Cogan | 2,503 | 60.1% | Jim Griffin | 1,177 | 28.3% |
 | 2024 | Place 1 | Nichelle D. Dawkins | 3,185 | 100% | (unopposed) | — | — |
@@ -313,21 +316,22 @@ The 2025 contract estimated Bedford's cost at $15,627.41, but the actual invoice
 | Election | Estimated Cost | Actual Cost | Variance |
 |----------|---------------|-------------|----------|
 | 2020 Liquor Petition | $2,738.70 | $3,395.18 | +24% |
+| 2021 Special | $18,000.00 | $24,162.99 | +34% |
 | 2022 General | $9,778.06 | $11,301.36 | +16% |
 | 2025 General | $15,627.41 | $20,379.30 | +30% |
 
-Estimates consistently run **16–30% below actuals**, meaning the City should budget at least 25–30% above the contracted estimate.
+Estimates consistently run **16–34% below actuals**, meaning the City should budget at least 30–35% above the contracted estimate.
 
 ### 5.3 Special Elections Are Expensive and Low-Turnout
 
 | Metric | General Elections (avg) | Special Elections (avg) |
 |--------|----------------------|----------------------|
-| Tarrant County cost | $5,300–$20,400 | $18,000–$24,700 |
+| Tarrant County cost | $5,300–$20,400 | $24,163–$24,674 |
 | Star-Telegram cost | $675–$6,236 | $1,543.50 |
 | Voter turnout | 6–13% | 5% |
-| Cost per ballot | $2–$7 | $12–$15 |
+| Cost per ballot | $2–$7 | $15–$16 |
 
-Both standalone special elections (Aug 2021 Place 4, Aug 2022 Place 1) were triggered by **mid-term council vacancies**. The city could have saved approximately **$45,000** over this period by aligning vacancy elections with scheduled general elections.
+Both standalone special elections (Aug 2021 Place 4, Aug 2022 Place 1) were triggered by **mid-term council vacancies**. The city could have saved approximately **$50,000** over this period by aligning vacancy elections with scheduled general elections.
 
 ### 5.4 Star-Telegram Costs Are Rising Sharply
 
@@ -360,7 +364,8 @@ This is confirmed by cost data: **EVPA expenses represent 57% of Bedford's Tarra
 |------|------------------|--------|
 | 2019 | 31,436 | Official results |
 | 2021 | 32,583 | Official results |
-| 2022 | 33,332 | Official results |
+| May 2022 | 33,141 | Official results |
+| Aug 2022 | 33,332 | Official results |
 | 2024 | 33,388 | Official results |
 | 2025 (contract) | 30,781 | 2025 Contract |
 | 2025 (results) | 32,849 | Official results |
@@ -377,20 +382,21 @@ The FOIA response did **not** include:
 
 | Missing Item | Impact |
 |-------------|--------|
-| **Aug 2021 Special Election — Tarrant County Invoice** | Cannot verify estimated $18,000 cost. Note: the file labeled "2021_TarrantCountyInvoice_SpecialElection.pdf" is a **duplicate** of the May 2021 General Election invoice (same check #2103, invoice #1800038619, amount $1,703.74) |
 | **2019 Tarrant County Invoice** | Cannot verify $11,750 estimate from communiqué |
-| **2022 Official Election Results** (General) | PDF was image-only and yielded no readable text even with OCR |
+| **2019 & 2021 Tarrant County Contracts** | Cannot verify contract terms, multipliers, or deposit requirements for these years |
 | **HEB ISD / TCC cost-sharing offsets** | Multiple communiqués reference splitting costs with HEB ISD and Tarrant County College, but no documentation of credits or reimbursements was provided |
 | **Internal budget-vs-actual reconciliation** | No internal summaries comparing budgeted election costs to actuals |
 | **2020 Star-Telegram invoice** | The 2020 liquor proposition notice cost is unknown |
+| **Translation invoices for 2021, 2022, 2025** | Only 2024 and 2019 translation invoices were provided |
+| **2021 Special Election contract** | No contract for the Aug 2021 special election; cannot verify terms |
 
 ### 6.2 OCR Quality Notes
 
-All 16 scanned PDFs were processed via Tesseract OCR v5.4.0 at 300 DPI. Quality varied:
+All 16 scanned PDFs were processed via Tesseract OCR v5.4.0 at 300–400 DPI. Quality varied:
 
 - **High quality** (dollar amounts, totals reliable): Tarrant County invoices for 2020, 2021, 2022; Star-Telegram invoices; Translation invoices; 2025 Contract
 - **Medium quality** (some digits uncertain): 2022 general expenses section (page 3 of Tarrant County invoice had heavy artifacting)
-- **Failed**: 2022 Official Results PDF — image too degraded for OCR
+- **Required preprocessing**: 2022 Official Results PDF — required contrast enhancement (2.0×) and 400 DPI to extract successfully; all figures cross-verified
 
 ---
 
@@ -398,23 +404,22 @@ All 16 scanned PDFs were processed via Tesseract OCR v5.4.0 at 300 DPI. Quality 
 
 ### 7.1 Key Findings
 
-1. **Total documented election spending (2019–2025): approximately $120,600** across 8 elections — comprising ~$101,700 in Tarrant County fees, ~$14,700 in Star-Telegram notices, ~$765 in translation services, and ~$3,400 in petition verification
+1. **Total documented election spending (2019–2025): approximately $126,755** across 8 elections — comprising ~$107,849 in Tarrant County fees, ~$14,700 in Star-Telegram notices, ~$765 in translation services, and ~$3,400 in petition verification
 2. **The cost-sharing multiplier varies by 263×** (0.19% to 50%) and is the dominant cost driver — more important than the type of election, number of races, or turnout
-3. **Standalone special elections cost $12–$15 per vote** compared to $2–$7 for joint general elections, a 2–7× premium
-4. **Estimates run 16–30% below actual costs** — the City should budget 25–30% above Tarrant County's estimate
+3. **Standalone special elections cost $15–$16 per vote** compared to $2–$7 for joint general elections, a 2–8× premium
+4. **Estimates run 16–34% below actual costs** — the City should budget 30–35% above Tarrant County's estimate
 5. **The 2025 election cost $20,379 vs 2024's $10,187** — a 100% increase driven by Bedford's multiplier jumping from 0.27% to 1.20% (fewer entities in the joint election)
 6. **Star-Telegram costs have increased 129%** since 2019, with charter amendment elections costing 4× the typical notice
 7. **Early voting infrastructure accounts for 57% of election costs**, with personnel being the single largest expense
-8. **The Aug 2021 special election invoice appears to be missing** from the FOIA response — the file labeled as such is a duplicate of the general election invoice
+8. **The corrected Aug 2021 special election invoice ($24,162.99) confirmed a 34% cost overrun** — the estimate of $18,000 from the council communiqué significantly underestimated actual costs
 
 ### 7.2 Recommendations
 
 1. **Avoid standalone special elections where legally permissible** — consolidating with scheduled elections saved $24,000+ (comparing the $80 November 2020 cost to the $24,674 August 2022 cost)
-2. **Budget 30% above Tarrant County estimates** based on the consistent pattern of cost overruns
+2. **Budget 35% above Tarrant County estimates** based on the consistent pattern of cost overruns (16–34% variance observed)
 3. **Monitor the number of entities in joint elections** — Bedford's cost sensitivity to the multiplier means that entity count trends directly predict cost trends
-4. **Follow up on the missing Aug 2021 special election invoice** — either it was not provided, or the ~$18,000 cost was absorbed/allocated differently
-5. **Explore negotiation of the 10% administrative fee** — this flat surcharge has added approximately $2,600 to costs across the documented elections
-6. **Request clarification on HEB ISD cost-sharing** — communiqués reference cost splits with HEB ISD that could offset reported totals
+4. **Explore negotiation of the 10% administrative fee** — this flat surcharge has added approximately $2,600 to costs across the documented elections
+5. **Request clarification on HEB ISD cost-sharing** — communiqués reference cost splits with HEB ISD that could offset reported totals
 
 ---
 

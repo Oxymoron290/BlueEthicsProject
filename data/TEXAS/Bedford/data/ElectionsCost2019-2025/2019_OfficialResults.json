@@ -1,0 +1,51 @@
+{
+  "source_file": "2019_OfficialResults.pdf",
+  "document_type": "official_results",
+  "year": 2019,
+  "election_subtype": "general",
+  "extraction_method": "embedded_text",
+  "text_length": 1889,
+  "data": {
+    "ballots_cast": 1991,
+    "registered_voters": 31436,
+    "turnout_percentage": 6.33,
+    "candidates": [
+      {
+        "candidate": "Don Coates",
+        "votes": 668,
+        "percentage": 34.27,
+        "voting_breakdown": {
+          "absentee": 6,
+          "early_voting": 441,
+          "election_day": 221
+        }
+      },
+      {
+        "candidate": "Amy Sabol",
+        "votes": 1281,
+        "percentage": 65.73,
+        "voting_breakdown": {
+          "absentee": 16,
+          "early_voting": 920,
+          "election_day": 345
+        }
+      },
+      {
+        "candidate": "Culver",
+        "votes": 1552,
+        "percentage": 100.0,
+        "voting_breakdown": {
+          "absentee": 15,
+          "early_voting": 1128,
+          "election_day": 409
+        }
+      }
+    ],
+    "voting_method_breakdown": {
+      "absentee_mail": 22,
+      "early_voting": 1361,
+      "election_day": 566
+    }
+  },
+  "raw_text": "SUMMARY OF PRECINCT RETURNS\nI, the undersigned, the presiding officer of the canvassing authority for the General Election,\nheld on the 4th day of May, 2019, in Bedford, Tarrant County, Texas, do hereby certify that the\nfollowing is a total of all votes received by each candidate as shown by the precinct returns.\nOFFICE\nCANDIDATE\nTOTAL VOTES RECEIVED\nCouncil Member, Place 3\nDon Coates\n668\nAmy Sabol\n1, 281\nCouncil\nMember, Place\n5\nRuth Culver\n1, 552\nDATED this 14th day of May, 2019\ni    / /\n4,  \nAi fii.:,   \nPresi•  , g 0\" icer, Mak r Jim Griffin\nCumulative Report  -  \nOfficial\nTarrant County - \nJoint General and Special Elections\nLive  -  May 04, 2019\nPage\n1 of 1\n05/ 10/2019 04: 57 PM\nTotal\nNumber\nof Voters: \n92, 192 of 1, 104, 353=\n8 35%  \nPrecincts Reporting 174 of 174= \n100. 00%\nNumber\nof District Voters: \n1, 991\nof 31, 436=\n6. 33%   \nDistrict Precincts\nReporting\n1 of\n1 = \n100. 00%\nParty\nCandidate\ni-\nAbsentee\nII,  \nEarly\nr\nElection111\nTotalIl\nCouncil\nMember,\nPlace\n3 - \nCity of Bedford, Vote For 1\nDon Coates\n6\n27. 27%\n441\n32. 40% \n221\n39. 05%\n668\n34. 27%\nAmy Sabol\n16\n72. 73%\n920\n67. 60% \n345\n60. 95%       \n1, 281\n65. 73%\nCast Votes:\n22\n100. 00%       \n1, 361\n97. 84% \n566\n97. 92%       \n1, 949\n97. 89%\nOver Votes:  \n0\n0. 00%   \n0\n0. 00%   \n1\n0. 17%   \n1\n0. 05%\nUnder Votes:  \n0\n0. 00%  \n30\n2. 16%  \n11\n1. 90% \n41\n2. 06%\nPrecincts\nVoters\nCounted\nTotal\nPercent\nBallots\nRegistered\nPercent\n1\n1\n100. 00% \n1, 991\n31, 436\n6. 33%\nCouncil\nMember,\nPlace\n5 - \nCity of Bedford, Vote For 1\nRuth\nCulver\n15\n100. 00%       \n1, 128\n100. 00% \n409\n100. 00%       \n1, 552\n100.00%\nCast Votes: \n15\n68. 18%       \n1, 128\n81. 09% \n409\n70. 76%       \n1, 552\n77. 95%\nOver Votes:  \n0\n0. 00%   \n0\n0. 00%   \n0\n0. 00%   \n0\n0. 00%\nUnder Votes:  \n7\n31. 82%\n263\n18. 91% \n169\n29. 24%\n439\n22. 05%\nPrecincts\nVoters\nCounted  _    \nTotal\nPercent\nBallots\nRegistered\nPercent\n1\n1\n100. 00% \n1, 991\n31, 436\n6. 33%"
+}

@@ -1,0 +1,61 @@
+{
+  "source_file": "2021_OfficialResults_Special.pdf",
+  "document_type": "official_results",
+  "year": 2021,
+  "election_subtype": "special",
+  "extraction_method": "embedded_text",
+  "text_length": 658,
+  "data": {
+    "ballots_cast": 1588,
+    "registered_voters": 32583,
+    "turnout_percentage": 4.87,
+    "candidates": [
+      {
+        "candidate": "Al Guerrero",
+        "votes": 23,
+        "percentage": 1.45,
+        "voting_breakdown": {
+          "absentee": 6,
+          "early_voting": 14,
+          "election_day": 3
+        }
+      },
+      {
+        "candidate": "Sal Caruso",
+        "votes": 572,
+        "percentage": 36.09,
+        "voting_breakdown": {
+          "absentee": 22,
+          "early_voting": 426,
+          "election_day": 124
+        }
+      },
+      {
+        "candidate": "Rich Steves",
+        "votes": 966,
+        "percentage": 60.95,
+        "voting_breakdown": {
+          "absentee": 26,
+          "early_voting": 746,
+          "election_day": 194
+        }
+      },
+      {
+        "candidate": "Charles Baetz",
+        "votes": 24,
+        "percentage": 1.51,
+        "voting_breakdown": {
+          "absentee": 5,
+          "early_voting": 9,
+          "election_day": 10
+        }
+      }
+    ],
+    "voting_method_breakdown": {
+      "absentee_mail": 59,
+      "early_voting": 1195,
+      "election_day": 331
+    }
+  },
+  "raw_text": "Council Member, Place 4 (Unexpired Term)\nChoice\nParty\nAbsentee\nVoting\nEarly Voting\nElection\nDay Voting\nTotal\nAl Guerrero\n6\n10.17%\n14\n1.17%\n3\n0.91%\n23\n1.45%\nSal Caruso\n22\n37.29%\n426\n35.65%\n124\n37.46%\n572\n36.09%\nRich Steves\n26\n44.07%\n746\n62.43%\n194\n58.61%\n966\n60.95%\nCharles Baetz\n5\n8.47%\n9\n0.75%\n10\n3.02%\n24\n1.51%\nCast Votes:\n59\n100.00%\n1,195\n100.00%\n331\n100.00%\n1,585\n100.00%\nUndervotes:\n0\n3\n0\n3\nOvervotes:\n0\n0\n0\n0\nEnd of report ***\nCumulative Results Report\nRun Time\nRun Date\n2:38 PM\n08/13/2021\nCity of Bedford\nCity of Bedford Special Election\n8/ 7/ 2021\nPage 1\nOfficial Results\nRegistered Voters\n1588 of 32583 = 4.87%\nPrecincts Reporting\n20 of 20 = 100.00%"
+}

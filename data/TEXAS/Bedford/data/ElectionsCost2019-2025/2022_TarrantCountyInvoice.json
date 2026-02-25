@@ -1,0 +1,70 @@
+{
+  "source_file": "2022_TarrantCountyInvoice.pdf",
+  "document_type": "tarrant_county_invoice",
+  "year": 2022,
+  "election_subtype": "general",
+  "extraction_method": "ocr",
+  "text_length": 4129,
+  "data": {
+    "invoice_number": "1800039964",
+    "check_number": null,
+    "invoice_date": "10/17/2022",
+    "election_date": null,
+    "tab_number": 7,
+    "multiplier": null,
+    "bedford_total": null,
+    "deposit_paid": null,
+    "balance_due": null,
+    "line_items": [
+      {
+        "category": "EVPA",
+        "description": "EVPA Verity Duos",
+        "county_amount": 45790.0,
+        "bedford_amount": 570.0
+      },
+      {
+        "category": "EVPA",
+        "description": "EVPA correspondence & postage a _",
+        "county_amount": 130.18,
+        "bedford_amount": 1.48
+      },
+      {
+        "category": "EVM",
+        "description": "EVM ballots",
+        "county_amount": 4197.84,
+        "bedford_amount": 77.16
+      },
+      {
+        "category": "ED",
+        "description": "ED temporary.support staff : — ;",
+        "county_amount": 234215.51,
+        "bedford_amount": 70547.0
+      },
+      {
+        "category": "ED",
+        "description": "ED supply kits ; . a 80",
+        "county_amount": 13280.0,
+        "bedford_amount": 40.0
+      },
+      {
+        "category": "ED",
+        "description": "ED polling place rentals/custodial ., ;",
+        "county_amount": 43267.0,
+        "bedford_amount": 156.0
+      }
+    ],
+    "category_subtotals": [
+      {
+        "category": "EVPA",
+        "county_amount": 0.0,
+        "bedford_amount": 859020.71
+      }
+    ],
+    "election_subtotal": null,
+    "admin_fee": null,
+    "county_wide_total": null,
+    "refund_credit": null,
+    "election_day_polls": null
+  },
+  "raw_text": "To: 20019\n\nCITY OF BEDFORD\n\nATTN: MICHAEL WELLS\n2000 FOREST RIDGE DRIVE\nBEDFORD TX 76021-1895\n\nItem No.\nMay 07, 2022 Election\n\nTotal Cost of Election:\nLess Deposit:\n\nTarrant County\n\nElections\n\nInvoice\n\nDescription\n\nLess Refund for May 2021 Election:\n\n101.10.12.8308 - Elections\n\nOVD Ue At\n\nInvoice Number: 1800039964\nInvoice Date 10/17/2022\nTerm : NET DUE ON RECEIPT\n\nContact:\n\nMaria Serna: 817-831-6476\n\n001 T7100-2022\n\nContract Election\n\nPage\n5 tena” Geet |\nAmount\nS11, 301:-36\n- $ 7,340.00\n- § 9.24\n3295212\nS 3,952.12\n\nTotal Invoice\n\nPlease return a copy of this invoice.\nMAIL ALL CHECKS PAYABLE TO\n\nTARRANT COUNTY\n% County Auditor\n\n100 E. Weatherford Street, Room 506\n\nFort Worth, Texas 76196-0103\n\nPhone: (817\\884-1205\n\nCONTRACT FOR ELECTION SERVICES\n\nELECTION DATE: May, 2022\nPOLITICAL SUBDIVISION: All Entities\nTAB# 7\n‘MULTIPLIER; 0.0030\n\nCost Election a\nCITY OF BEDFORD\nCategory Units or'Description Per Unit: Actual\n\nEARLY VOTING BY PERSONAL APPEARANCE (EVPA) EXPENSES:\n\nlEVPA polling place personnel ; $. 423,963.78 _ 6,734.61\n{EVPA temporary support staff ~ ; $ 35,939.88 Go 408.44 |\nEvPAsupply kits. $3,520.00 $ | __._ 40.00 |\niEVPA Verity Duos $ 45,790.00 $ 570.00 |\n(EVPA Verity Scans ~ Zz $ 682000 $ . |. 77.60!\n‘EVPA Verity Controllers = | - : $ 462000 $  —... | 52.50 |\n~ JEVPA polling place réntals/custodial oo! : - +§$ 2636.00—$- -%-. ~- --]\njEVPA polling place telephone lines __ — ; $ 167156 $  . 19.00 }\n‘EVPA furniture rentals ee $ 6,194.00 $ st\n|EVPA correspondence & postage a _ $ 130.18 $ 1.48 |\n‘EVPA parking meterexpenses _ _ _ _ $$ 1640.00 $ | ee |\n{EVPA training materials ; $ 366.80 S$ —__ 4.40 |\n(Early. Voting Ballot Board personne! & SVC _. § 19,709.51 $ ‘ 59.37 |\n(OTHERS | . $ - 3. - !\n(Category Subtotal 00 859,020.71 $6,987.26 |\n\n'EARLY VOTING BY MAIL (EVM) EXPENSES:\n\niEVM ballots $ 4,197.84 $ 77.16\n\nEVM: envelopes & supplies. | -$ 10,669.51 $ 196.12 |\nIEVM ballét postage | $ 806335 S$. 148.21 3\niEVM correspondence & postage ol $ 974.09 $ oo 17.30 |\niEVM Ballot Now PCs _ $ = § ; - |\n{OTHER: Ballot Printing Setup Fee / $ 1,500.00 $ . 4.52 |\n‘OTHER; _ $ - $ . _- |\nlOTHER: wo ___ 8. -  $ - |\nCategory Subtotal __ ; $ 25,404.79 $ 443.91 |\n\n‘ELECTION DAY (ED) EXPENSES:\n\n'eD Polling place personne! © a ° S$ 216,473.14 $. a. ‘680.61 |\n\n{ED temporary.support staff : — ; $ 234,215.51 $ 705,47 |\n{ED‘ballots : . ; $ 72,000.00 $ _ ‘216.87 |\n{ED supply kits ; . a 80 $ 13,280.00 $ 40.00]\n‘ED Verity Scan : . 155 $ 25,730.00 $ ; 77.50 !\n{ED standard voting booths ; _ - 5$ | - & oo. |\niED. Verity Controllers: ; ; ; 105 $ 17,640.00 $ 52.50 |\n{ED Verity Duos. , a 95 § 148,825.00 § - ' «70.00 }\nED DAU eSlates . / 115. $ 2 S$). _-f\n‘ED Rally Station PCs . 25 $ - § - |\n{ED polling place rentals/custodial ., ; $ 43,267.00 $ 156.00 |\niED-fumiture rentals $ 3,692.00 $ 11.12 |\n‘Emergency teams and voter lookup _ $ 1014.11. 5. . 25.35 }\nWireless Data | - . $ 12,993.08 $. ; _ 39.14 !\nlRally Station Phone Lines $ - S$ .. : - |\n\\Rally Station Facility Rental $ 100.00 $ ; 0.30 §\n{Rally station personnel $ 226356 $ |. 6.82 }\n‘Category Subtotal _$ 788,493.40 $ -: 2,581:67 |\n\nPage 1 of 2\n\nSh pret ae\noi\"\n\noe “Audio'ecordings\n‘(Language translations _\n_Communication equipment rental\n\nEc GENERAL EXPENSES OF, ELECTION _\n\nental Vehicles —\n\n“Fuetexpenses oo\n7 (Mileage expense _\n““-{Chair,rerital for Training Center\n\nalalealea:. }:\n‘\n\n” 41,626.56\n\n$\n\n&.\nar nee eee ee\n\n\"(Publication of Legal.Notices\n\nfA\n\n341.00\n\na“\n\n{Postage/Shipping __\n\na“\n\n1,217.75\n\n“An\n\n'\n\nATE\n\na“\n‘\n\n“\n\n“* “{Eléctions Department staff overtime —\n\nen\n>\nra\n~]\n=\na\n\nRak\n\n© Moting system vendor site support\n\na\n\n‘ev\n1\n\n{Training materials\n\n‘a\nt\n\nala\n\nOTHER: -Supplies ‘\n\naaa\n\n SOTHER: Parking Meter ==SS=~*~S ~\n“. OTHER: Ballot Remake-—~ 9. se\n\nA\n\n<a\nNit ,\n\na\n\n“A\n\nS775\n\nOTHER: _\n\n“\n\n_- $8.\n\n93,911.14 $ =.\n\n| Category Subtotal\n\nELECTION SU BTOTAL::\n\n° ‘Election Services Contract Administration Feo a 10%)\n\n7 TOTAL COST-OF ELECTION:\n\n““LESS:DEPOSIT a\n_ bess:Refund for May 2021\n\n“BALANCE DUE\n\n‘Page 2.0f 2.\n\na\n\n- “$4,606,913.05\n\n; _ $1,460,830.04\n“$146,083.00\n\n_ $10, 273. 96\n\n$1, 027.40\n\n. “. $14,301.36:\n\n$7,340.00\n9.24\n$3,952.12"
+}

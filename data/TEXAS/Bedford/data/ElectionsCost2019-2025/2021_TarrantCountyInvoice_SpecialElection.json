@@ -1,0 +1,51 @@
+{
+  "source_file": "2021_TarrantCountyInvoice_SpecialElection.pdf",
+  "document_type": "tarrant_county_invoice",
+  "year": 2021,
+  "election_subtype": "special",
+  "extraction_method": "ocr",
+  "text_length": 2958,
+  "data": {
+    "invoice_number": "1800038755",
+    "check_number": "2322",
+    "invoice_date": "10/19/2021",
+    "election_date": "August 7, 2021",
+    "tab_number": null,
+    "multiplier": null,
+    "bedford_total": 24162.99,
+    "deposit_paid": null,
+    "balance_due": 24162.99,
+    "line_items": [
+      {
+        "category": "EVPA",
+        "description": "EVPA Verity Scans _",
+        "county_amount": 155.0,
+        "bedford_amount": 155.0
+      },
+      {
+        "category": "EVPA",
+        "description": "EVPA Verity Controllers a, :",
+        "county_amount": 105.0,
+        "bedford_amount": 105.0
+      },
+      {
+        "category": "ED",
+        "description": "ED supply kits",
+        "county_amount": 80.0,
+        "bedford_amount": 80.0
+      },
+      {
+        "category": "ED",
+        "description": "ED Verity Scan",
+        "county_amount": 155.0,
+        "bedford_amount": 155.0
+      }
+    ],
+    "election_subtotal": null,
+    "admin_fee": null,
+    "county_wide_total": null,
+    "refund_credit": null,
+    "election_day_polls": 1
+  },
+  "raw_text": "Check No. 2322\nDATE _INVOICENO. | NET AMOUNT\n10/25/2021 | 1800038755 2\n\n021 Special Election 24,162.99\n\nTotal: $24,162.99\n\n10/28/2021 $24,162.99\n\nTwenty-Four Thousand One Hundred Sixty-Two and 99/100 Dollars\nTARRANT COUNTY ELECTIONS\n\nADMINISTRATION _ SS ere\n100 E. WEATHERFORD STREET\nROOM 506 MAE rin Poza\n\nFORT WORTH, TX 76196-0103\n\nTarrant County\n\nElections\nee OU,\nLa SNS\nra ALAS\naay % be\n* ~ %.\ntera Kee\nTo: 20019 1\nCITY OF BEDFORD Invoice\nATTN: MICHAEL WELLS\n2000 FOREST RIDGE DRIVE Invoice Number: 1800038755\nBEDFORD TX 76021-1895 Invoice Date : 10/19/2021\nTerm : NET DUE ON RECEIPT\nContact:\nMaria Serna: 817-831-6476\nPage\n1/1\ntem No. Description Amount\nAugust 07, 2021 Election\nTotal Cost of Election: $24,162.99\nLess Deposit: - §$ 0.00\n001 T7100~-2021 Contract Election 24,162.99\n\nTotal Invoice $ 24,162.99\n\nPlease return a copy of this Invoice.\nMAIL ALL CHECKS PAYABLE TO\nTARRANT COUNTY\n% County Auditor\n100 E. Weatherford Street, Room 506\nFort Worth, Texas 76196-0103\n\nPhone: (817)884-1205\n\nCONTRACT FOR ELECTION SERVICES\n\nELECTION DATE: August 7, 2021\nCity of Bedford\nACTUAL # OF ELECTION DAY POLLS:\nBILLED # OF ELECTION DAY POLLS: 1\nCost Election\nCategory Units or Description Per Unit Actual\ni Y ; : $5,881.02\n: $3,810.79\n$80 $80.00\n$95 $380.00\nEVPA Verity Scans _ $155 $155.00\nEVPA Verity Controllers a, : $105 $105.00\nEVPA polling place rentals/custodial $0.00\nEVPA polling place telephone lines $37.99\nEVPA furniture rentals : : $0.00\nEVPA correspondence & postage $3.42\nEVPA parking meter expenses : $0.00\nEVPA Training materials $0.00\nEarly Voting Ballot Board personnel & SVC : $413.58\nOTHER:EV Ballots $286.80\nOTHER: $0.00\nCategory Subtotal $11,153.60\nEARLY VOTING BY MAIL(EVM) EXPENSES;\n$14.99\n$61.56\n$37.34\n$1.28\n$0.00\n$0.00\n$0.00\n$0.00\n$115.17\nELECTION DAY ERIE oo Re\nED polling place personnel $2,206.98\nED temporary support staff $1,183.88\nED ballots $79.92\nED supply kits $80.00 $80.00\n\nED Verity Scan $155.00 $155.00\n\nCost Election\nCategory Units or Description Per Unit Actual\n\n$160.00\n$334.10\n$0.00\n$0.00\n$17.50\n$8.19\n$0.00\n$0.00\n$0.00\n$5,189.02\n$0.00\n$0.00\n$0.00\n$0.00\n$0.00\n$0.00\n\nHEIDER GARCIA\nElections Administrator\n\nOctober 19, 2021\n\nCity of Bedford\nMichael Wells\n\n2000 Forest Ridge Drive\nBedford, TX 76021\n\na8 GOUN>$*.\nCc \"p:\n\ne ie oN\nt) iy SS = \\;* °,\nae ~ 5 - wy\n\nTARRANT COUNTY\nELECTIONS ADMINISTRATION\n\nRE: Invoice ~ August 7, 2021 Special Election\n\nDear Michael,\n\nTROY HAVARD\nAssistant Elections Administrator\n\nEnclosed is your invoice for the August 7, 2021 Election. You have a balance due of $24,162.99. Please send\n\nyour payment to our office at the address listed at the bottom of this letter.\n\nIf you have any questions you may call me at 817-831-6476 or email me at meserna@tarrantcounty.com.\n\nWe look forward to serving you in the future.\n\nSincerely,\n\nMaria Serna\n\nChief Bookkeeper\n\nEnclosures\n\n2700:PREMIER STREET\nFORT WORTH, TX 76111\n\nwww.tarrantcounty.com/elections\n\n(817) 831-8683 (VOTE)\nTDD (817) 759-7801"
+}
