@@ -9,7 +9,7 @@
     "vendor": "Language Line Services",
     "invoice_date": null,
     "invoice_number": "fT",
-    "total_amount": 279.08,
+    "total_amount": 444.38,
     "all_amounts": [
       279.08,
       165.3,
@@ -90,6 +90,24 @@
       {
         "description": "AMOUNT DUE",
         "amount": 279.08
+      }
+    ],
+    "invoices": [
+      {
+        "check_number": "143156",
+        "invoice_number": "4773635",
+        "invoice_date": "03/11/2020",
+        "description": "Election Translation Services",
+        "amount": 279.08,
+        "period": "February 2020"
+      },
+      {
+        "check_number": "143376",
+        "invoice_number": "4795179",
+        "invoice_date": "04/07/2020",
+        "description": "Election Notice Translation Services",
+        "amount": 165.3,
+        "period": "March 2020"
       }
     ]
   },

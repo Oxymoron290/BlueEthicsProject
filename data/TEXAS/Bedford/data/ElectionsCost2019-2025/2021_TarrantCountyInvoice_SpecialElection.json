@@ -13,7 +13,7 @@
     "tab_number": null,
     "multiplier": null,
     "bedford_total": 24162.99,
-    "deposit_paid": null,
+    "deposit_paid": 0.0,
     "balance_due": 24162.99,
     "line_items": [
       {

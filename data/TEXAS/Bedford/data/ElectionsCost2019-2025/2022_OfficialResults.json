@@ -11,21 +11,56 @@
     "turnout_percentage": 7.94,
     "candidates": [
       {
-        "candidate": "Amy Sabal",
+        "candidate": "Amy Sabol",
         "votes": 2015,
-        "percentage": 100.0
+        "percentage": 100.0,
+        "race": "Place 3",
+        "voting_breakdown": {
+          "absentee": 1,
+          "early_voting": 1478,
+          "election_day": 536
+        }
       },
       {
         "candidate": "Steve Farco",
-        "votes": 166,
-        "percentage": 49.26
+        "votes": 1291,
+        "percentage": 52.82,
+        "race": "Place 5",
+        "voting_breakdown": {
+          "absentee": 166,
+          "early_voting": 743,
+          "election_day": 382
+        }
       },
       {
         "candidate": "Charles Baetz",
-        "votes": 454,
-        "percentage": 32.02
+        "votes": 786,
+        "percentage": 32.16,
+        "race": "Place 5",
+        "voting_breakdown": {
+          "absentee": 99,
+          "early_voting": 454,
+          "election_day": 233
+        }
+      },
+      {
+        "candidate": "Michael A Dickens",
+        "votes": 367,
+        "percentage": 15.02,
+        "race": "Place 5",
+        "voting_breakdown": {
+          "absentee": 72,
+          "early_voting": 221,
+          "election_day": 74
+        }
       }
-    ]
+    ],
+    "voting_method_breakdown": {
+      "absentee_mail": 374,
+      "early_voting": 1478,
+      "election_day": 536
+    },
+    "_note": "Candidate totals verified by manual cross-check of OCR output; OCR garbles some digits in Total column"
   },
-  "raw_text": "OFFICIAL RESULTS\n\nCity of Bedford Tarrant County Official Results\n\nRegistered Voters\n\nConstitutional Joint Elections 2632 of 33141 = 7.94%\n\n536 AM 5/7/2022\n05/16/2022 Page 1\n\nChoice Party Absentee Voting Early Voting Election Day Voting Total\nAmy Sabal 1 100.00% 1.178 100.00% 536 100.00% 2015 100.00%\nCast Votes: i =100.00% 1,178 7100.00% 536 100.00% 2015 100,00%\n\nUndervotes- 73 336 208 617\n\nOvervotes- i) 0 0 0\nChoice Party Absentee Voting Early Voting Election Day Voting Total\nSteve Farco 166 49.26% 7430 «52.40% 382 «(55.44% 1291 5282%\nCharles Baetz 959 29.38% 454 32.02% 233 «33.82% 7a 0632. 16%\nMichael A Dickens 72 «21.36% 221 15.59% 74 = 10.74% 367 8 615.02%\nCast Votes: 337 «=(100.00% 1418 100.00% 669 100.00% 2444 10000%\n\nUndervotes- 37 96 55 188\n\nOvervotes: 0 0 0 0"
+  "raw_text": "OFFICIAL RESULTS\n\nCity of Bedford Tarrant County Official Results\n\nRegistered Voters\n\nConstitutional Joint Elections 2632 of 33141 = 7.94%\n\n36 AM 5/7/2022\n05/16/2022 Page 1\n\nChoice Party Absentee Voting Early Voting Election Day Voting Total\nAmy Sabol 21 100.00% 1,178 100.00% 536 6100.00% 2015 100.00%\nCast Votes: 1 100.00% 1,178 100.007 536 100.00% 2015 100,00%\n\nUndervotes- 73 336 208 617\n\nOvervotes- i) 0 0 0\nChoice Party Absentee Voting Early Voting Election Day Votin Total\nSteve Farco 166 49.26% 74300 (52.40% 382 0 =655.44% 1291 52.82%\nCharles Baetz 95 2938% 454 32.02% 2330 «33.82% 7860 0=—- 32.16%\nMichael A. Dickens T2 #821 36% 221 15.50% 74 = 10.74% 367 =615.00%\nCast Votes: 337 100.0% 1418 100.00% 689 100.00% 2444 10000%\n\nUndervotes- 37 96 55 188\n\nOvervotes: 0 0 0 0"
 }

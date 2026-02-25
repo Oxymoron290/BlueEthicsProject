@@ -8,7 +8,7 @@
   "data": {
     "invoice_number": null,
     "invoice_date": "07/30/2021",
-    "total_amount": 1571.97,
+    "total_amount": 1543.5,
     "all_amounts_found": [
       1571.97,
       1571.97,
@@ -44,6 +44,18 @@
       {
         "description": "04/15/2021 142844 FTW-Star-Telegram - Legals ROP Any B-Quarter Page V $1,543.50",
         "amount": 1543.5
+      }
+    ],
+    "election_notice_amount": 1543.5,
+    "total_invoice_amount": 1571.97,
+    "non_election_charges": [
+      {
+        "description": "Zoning notice",
+        "amount": 14.55
+      },
+      {
+        "description": "Zoning notice",
+        "amount": 13.92
       }
     ]
   },

@@ -8,7 +8,7 @@
   "data": {
     "invoice_number": null,
     "invoice_date": "04/30/2022",
-    "total_amount": 1556.79,
+    "total_amount": 1543.5,
     "all_amounts_found": [
       1556.79,
       1556.79,
@@ -43,6 +43,14 @@
       {
         "description": "04/17/2022 - 04/17/2022 248417 Print Legal Ad FTW-Star-Telegram 1x24L 24L 1 $13.50",
         "amount": 13.5
+      }
+    ],
+    "election_notice_amount": 1543.5,
+    "total_invoice_amount": 1556.79,
+    "non_election_charges": [
+      {
+        "description": "Other notice",
+        "amount": 13.29
       }
     ]
   },

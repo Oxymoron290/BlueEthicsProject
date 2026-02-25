@@ -6,19 +6,45 @@
   "extraction_method": "embedded_text",
   "text_length": 1228,
   "data": {
-    "registered_voters": null,
-    "ballots_cast": null,
-    "turnout_percentage": null,
+    "registered_voters": 32583,
+    "ballots_cast": 3247,
+    "turnout_percentage": 9.97,
     "candidates": [
       {
-        "candidate": "Election Day Voting",
-        "votes": 16,
-        "percentage": null
+        "candidate": "Michael Boyter",
+        "votes": 2557,
+        "percentage": 83.7,
+        "race": "Mayor"
       },
       {
-        "candidate": "Election Day Voting",
-        "votes": 20,
-        "percentage": null
+        "candidate": "Kyle McDonald",
+        "votes": 498,
+        "percentage": 16.3,
+        "race": "Mayor"
+      },
+      {
+        "candidate": "Cindy Almendarez",
+        "votes": 1750,
+        "percentage": 56.5,
+        "race": "Place 1"
+      },
+      {
+        "candidate": "Charles Baetz",
+        "votes": 1350,
+        "percentage": 43.6,
+        "race": "Place 1"
+      },
+      {
+        "candidate": "Dan Cogan",
+        "votes": 1691,
+        "percentage": 53.8,
+        "race": "Place 2"
+      },
+      {
+        "candidate": "Dave Gebhart",
+        "votes": 1452,
+        "percentage": 46.2,
+        "race": "Place 2"
       }
     ],
     "voting_method_breakdown": {
