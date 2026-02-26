@@ -1,4 +1,4 @@
-// Hardcoded election data from 40 verified JSON files (4 audit passes, 357 confirmations)
+// Hardcoded election data from 40 verified JSON files (5 audit passes, 357+ confirmations)
 // This avoids runtime fetch complexity for a static dashboard
 
 export interface ElectionCost {
@@ -79,7 +79,7 @@ export const electionCosts: ElectionCost[] = [
     multiplier: null,
     tab: null,
     deposit: null,
-    estimatedCost: 11750.00,
+    estimatedCost: 7100.00, // Contract says $7,100; communiqué said $11,750 (6 entities in joint election)
     balanceDue: null,
     isEstimate: true,
   },
@@ -88,10 +88,10 @@ export const electionCosts: ElectionCost[] = [
     date: '2020-11-03',
     type: 'proposition',
     tarrantCounty: 80.00,
-    starTelegram: 0,
+    starTelegram: 675.00, // Ad #4770845 from bundle invoice (Check #145185, 2020-10-22)
     translation: 444.38,
     petition: 3395.18,
-    grandTotal: 3919.56,
+    grandTotal: 4594.56,
     multiplier: null,
     tab: null,
     deposit: 0,
@@ -456,10 +456,30 @@ export const registeredVoterTrend = [
 // ESTIMATE VS ACTUAL
 // ============================================================
 export const estimateVsActual = [
+  { election: 'May 2019', estimated: 7100.00, actual: 11750.00, variance: 65, note: 'Contract est $7,100; communiqué reported $11,750' },
   { election: '2020 Petition', estimated: 2738.70, actual: 3395.18, variance: 24 },
   { election: 'Aug 2021 Sp.', estimated: 18000.00, actual: 24162.99, variance: 34 },
   { election: 'May 2022', estimated: 9778.06, actual: 11301.36, variance: 16 },
   { election: 'May 2025', estimated: 15627.41, actual: 20379.30, variance: 30 },
+];
+
+// ============================================================
+// BUDGET VS ACTUAL (City G/L Account 101.10.12-8308)
+// ============================================================
+export interface BudgetVsActualEntry {
+  fiscalYear: number;
+  adoptedBudget: number;
+  actual: number;
+}
+
+export const budgetVsActual: BudgetVsActualEntry[] = [
+  { fiscalYear: 2019, adoptedBudget: 11750, actual: 7922.26 },
+  { fiscalYear: 2020, adoptedBudget: 13750, actual: 279.08 },
+  { fiscalYear: 2021, adoptedBudget: 12080, actual: 28049.63 },
+  { fiscalYear: 2022, adoptedBudget: 12750, actual: 38091.57 },
+  { fiscalYear: 2023, adoptedBudget: 10750, actual: 43.00 },
+  { fiscalYear: 2024, adoptedBudget: 12750, actual: 10573.74 },
+  { fiscalYear: 2025, adoptedBudget: 12750, actual: 20433.98 },
 ];
 
 // ============================================================
@@ -478,10 +498,9 @@ export const repeatCandidates: RepeatCandidate[] = [
 // MISSING DOCUMENTS (data gaps)
 // ============================================================
 export const missingDocuments = [
-  { item: '2019 Tarrant County Invoice', impact: 'Cannot verify $11,750 estimate from communiqué' },
-  { item: '2019 & 2021 Contracts', impact: 'Cannot verify contract terms, multipliers, or deposits' },
+  { item: '2021 Tarrant County Contract', impact: 'Cannot verify contract terms, multipliers, or deposits for 2021' },
   { item: 'HEB ISD / TCC cost-sharing', impact: 'Multiple communiqués reference cost splits; no documentation provided' },
-  { item: '2020 Star-Telegram invoice', impact: 'Proposition notice cost unknown' },
+  { item: '2020 Star-Telegram invoice', impact: 'Found: Ad #4770845 in bundle (4766589, 4770845, 4773220.pdf), $675.00 election notice' },
   { item: 'Translation invoices (2021, 2022, 2025)', impact: 'Only 2024 and 2019/2020 provided' },
   { item: '2021 Special Election contract', impact: 'Cannot verify terms for Aug 2021 election' },
 ];

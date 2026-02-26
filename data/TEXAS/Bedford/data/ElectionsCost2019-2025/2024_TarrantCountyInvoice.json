@@ -6,9 +6,9 @@
   "extraction_method": "embedded_text",
   "text_length": 5320,
   "data": {
-    "invoice_number": null,
+    "invoice_number": "1800042297",
     "check_number": null,
-    "invoice_date": null,
+    "invoice_date": "10/02/2024",
     "election_date": "May 4, 2024",
     "tab_number": 6,
     "multiplier": 0.0027,

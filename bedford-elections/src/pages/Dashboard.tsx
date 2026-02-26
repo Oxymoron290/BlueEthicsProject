@@ -35,6 +35,7 @@ import CostBarChart from '../components/CostBarChart';
 import CostBreakdownChart from '../components/CostBreakdownChart';
 import MultiplierChart from '../components/MultiplierChart';
 import EstimateVsActualChart from '../components/EstimateVsActualChart';
+import BudgetVsActualChart from '../components/BudgetVsActualChart';
 import CostPerBallotChart from '../components/CostPerBallotChart';
 import TurnoutChart from '../components/TurnoutChart';
 import VotingMethodChart from '../components/VotingMethodChart';
@@ -119,6 +120,9 @@ export default function Dashboard() {
         <div className="grid grid-cols-1 lg:grid-cols-2 gap-6">
           <MultiplierChart />
           <EstimateVsActualChart />
+        </div>
+        <div className="mt-6">
+          <BudgetVsActualChart />
         </div>
       </section>
 

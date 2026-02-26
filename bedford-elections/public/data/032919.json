@@ -1,0 +1,75 @@
+{
+  "metadata": {
+    "source_file": "032919.pdf",
+    "document_type": "tarrant_county_contract",
+    "election_year": 2019,
+    "pages": 3,
+    "extraction_method": "ocr_tesseract_400dpi_contrast1.5"
+  },
+  "data": {
+    "election_date": "2019-05-04",
+    "parties": [
+      "Tarrant County Elections",
+      "City of Bedford"
+    ],
+    "multiplier": null,
+    "estimated_cost": 7100.0,
+    "deposit_required": 7100.0,
+    "registered_voters": null,
+    "tab_number": null,
+    "total_entities_in_election": null,
+    "all_dollar_amounts": [
+      7100.0,
+      9329.23,
+      7000.0,
+      31727.9,
+      23600.0,
+      400.0,
+      300.0,
+      23393.0,
+      17600.0
+    ],
+    "contract_terms": [
+      "Balance due within 30 days of final invoice",
+      "Excess deposit refunded within 30 days of final cost calculation"
+    ],
+    "other_entities": [
+      {
+        "name": "Carroll ISD",
+        "estimated_cost": 9329.23,
+        "deposit": 7000.0
+      },
+      {
+        "name": "City of Bedford",
+        "estimated_cost": 7100.0,
+        "deposit": 7100.0
+      },
+      {
+        "name": "Hurst-Euless-Bedford ISD",
+        "polls": 2.5,
+        "estimated_cost": 31727.9,
+        "deposit": 23600.0
+      },
+      {
+        "name": "Lewisville ISD",
+        "estimated_cost": 400.0,
+        "deposit": 300.0
+      },
+      {
+        "name": "Northwest ISD",
+        "polls": 2.33,
+        "estimated_cost": 23393.0,
+        "deposit": 17600.0
+      },
+      {
+        "name": "Town of Flower Mound",
+        "estimated_cost": 400.0,
+        "deposit": 300.0
+      }
+    ],
+    "check_number": 140437,
+    "check_amount": 7100.0,
+    "check_date": "2019-03-29",
+    "raw_text": "ay ma ee NVOICENO. | Check No. 140437\naamooie |rcsens er AMOUNT\nTotal: $7,100.00\n(oan0s2079— $7,100.00\nSeven Thousand One Hundred and 00/100 Dollars\nTARRANT COUNTY ELECTIONS\nADMINISTRATION Tene ee ae\n100 E. WEATHERFORD STREET\nROOM 506 Chile) Rha euro\nFORT WORTH, TX 76196-0103\n\nHello |\nlocran t SentyShkctions\nPlease Val Send the\nrap +0 Amanda Jawbs\n) (Ndude With the\nS19 ned Contact. —\nThanks!\nRan ba?\nbatch OZ AUG\n\nand if the amount of an authority's total obligation exceeds the amount deposited, the authority shall pay to the Elections\nAdministrator the balance due within 30 days after the receipt of the final invoice from the Elections Administrator. However, if\nthe amount of the authority's total obligation is less than the amount deposited, the Elections Administrator shall refund to the\nauthority the excess amount paid within 30 days after the final costs are calculated.\nThe total estimated obligation and required deposit for each participating authority under the terms of this agreement shall be\nas follows:\nPi Actua # | Billed # | Estimated | Deposit __\n|PoliticalSubdivision ——Ss—————S—~d|_=SCSéPtis’, ={|_“~Polls’ | Cost_—| ~~ Due\nI  (\n[CARROLLISD TCO S$ (9,329.23 | $7,000.00 _\n[CIMYOFBEDFORD (et 943373 |G 710000\n1\n0.33\n/HURST-EULESS-BEDFORDISD ‘| _——9i|_2.50| $ 31,727.90 | $ 23,600.00 _|\nFLEWISVILLEISD | OS 400.00 | $ 300.00\n|NORTHWESTISD | | 2.33] $ 23,393.00 | $ 17,600.00 _\n|TOWNOFFLOWERMOUND [| 1 { 0.00] $ 400.00 | $ 300.00\nJoint Election Agreement and Contract for Election Services --- Page 7\n. EA Initials a Rep Initials\n\n"
+  }
+}

@@ -1,0 +1,324 @@
+{
+  "metadata": {
+    "source_file": "032919.pdf",
+    "document_type": "tarrant_county_contract",
+    "election_year": 2019,
+    "pages": 3,
+    "extraction_method": "ocr_tesseract_600dpi_contrast2.0_multi_psm"
+  },
+  "data": {
+    "election_date": "2019-05-04",
+    "parties": [
+      "Tarrant County Elections",
+      "City of Bedford"
+    ],
+    "multiplier": null,
+    "estimated_cost": 7100.0,
+    "deposit_required": 7100.0,
+    "registered_voters": null,
+    "tab_number": null,
+    "total_entities_in_election": 41,
+    "all_dollar_amounts": [
+      300.0,
+      400.0,
+      3000.0,
+      3915.62,
+      4700.0,
+      5200.0,
+      6100.0,
+      6196.87,
+      6266.54,
+      6600.0,
+      6806.33,
+      7000.0,
+      7100.0,
+      7200.0,
+      8025.26,
+      8400.0,
+      8600.0,
+      8667.52,
+      9276.98,
+      9329.23,
+      9381.48,
+      9485.98,
+      9496.98,
+      9800.0,
+      11105.37,
+      11418.87,
+      11446.97,
+      13038.25,
+      14100.0,
+      14200.0,
+      14300.0,
+      15400.0,
+      17600.0,
+      18726.3,
+      18851.25,
+      18935.3,
+      20450.19,
+      20700.0,
+      23393.0,
+      23800.0,
+      25200.0,
+      27554.74,
+      27600.0,
+      31400.0,
+      31727.9,
+      33562.4,
+      34200.0,
+      36708.1,
+      41779.85,
+      45520.06,
+      51700.0,
+      68834.94,
+      134000.0,
+      178628.23,
+      197000.0,
+      207300.0,
+      262662.97,
+      276334.93
+    ],
+    "contract_terms": [
+      "Balance due within 30 days of final invoice",
+      "Excess deposit refunded within 30 days of final cost calculation"
+    ],
+    "other_entities": [
+      {
+        "name": "Azle ISD",
+        "estimated_cost": 8025.26,
+        "deposit": 6100.0
+      },
+      {
+        "name": "Birdville ISD",
+        "polls": 2.83,
+        "estimated_cost": 45520.06,
+        "deposit": 34200.0
+      },
+      {
+        "name": "Carroll ISD",
+        "polls": 1.5,
+        "estimated_cost": 9329.23,
+        "deposit": 7000.0
+      },
+      {
+        "name": "City of Arlington",
+        "polls": 24.5,
+        "estimated_cost": 178628.23,
+        "deposit": 134000.0
+      },
+      {
+        "name": "City of Azle",
+        "estimated_cost": 6196.87,
+        "deposit": 4700.0
+      },
+      {
+        "name": "City of Bedford",
+        "polls": 0.5,
+        "estimated_cost": 7100.0,
+        "deposit": 7100.0
+      },
+      {
+        "name": "City of Blue Mound",
+        "polls": 0.33,
+        "estimated_cost": 6266.54,
+        "deposit": 4700.0
+      },
+      {
+        "name": "City of Colleyville",
+        "estimated_cost": 9485.98,
+        "deposit": 7200.0
+      },
+      {
+        "name": "City of Euless",
+        "polls": 0.5,
+        "estimated_cost": 9381.48,
+        "deposit": 7100.0
+      },
+      {
+        "name": "City of Everman",
+        "estimated_cost": 11105.37,
+        "deposit": 8400.0
+      },
+      {
+        "name": "City of Forest Hill",
+        "estimated_cost": 11105.37,
+        "deposit": 8400.0
+      },
+      {
+        "name": "City of Fort Worth",
+        "polls": 46.12,
+        "estimated_cost": 262662.97,
+        "deposit": 197000.0
+      },
+      {
+        "name": "City of Grand Prairie",
+        "estimated_cost": 27554.74,
+        "deposit": 20700.0
+      },
+      {
+        "name": "City of Grapevine",
+        "estimated_cost": 9485.98,
+        "deposit": 7200.0
+      },
+      {
+        "name": "City of Haltom City",
+        "estimated_cost": 9496.98,
+        "deposit": 7200.0
+      },
+      {
+        "name": "City of Hurst",
+        "estimated_cost": 9329.23,
+        "deposit": 7000.0
+      },
+      {
+        "name": "City of Keller",
+        "polls": 1.0,
+        "estimated_cost": 11418.87,
+        "deposit": 8600.0
+      },
+      {
+        "name": "City of Kennedale",
+        "polls": 0.33,
+        "estimated_cost": 6266.54,
+        "deposit": 4700.0
+      },
+      {
+        "name": "City of Lake Worth",
+        "estimated_cost": 18726.3,
+        "deposit": 14100.0
+      },
+      {
+        "name": "City of Mansfield",
+        "polls": 1.5,
+        "estimated_cost": 13038.25,
+        "deposit": 9800.0
+      },
+      {
+        "name": "City of North Richland Hills",
+        "estimated_cost": 20450.19,
+        "deposit": 15400.0
+      },
+      {
+        "name": "City of Richland Hills",
+        "polls": 0.5,
+        "estimated_cost": 9276.98,
+        "deposit": 7000.0
+      },
+      {
+        "name": "City of River Oaks",
+        "polls": 0.5,
+        "estimated_cost": 6806.33,
+        "deposit": 5200.0
+      },
+      {
+        "name": "City of Saginaw",
+        "polls": 0.33,
+        "estimated_cost": 6266.54,
+        "deposit": 4700.0
+      },
+      {
+        "name": "City of Southlake",
+        "estimated_cost": 9329.23,
+        "deposit": 7000.0
+      },
+      {
+        "name": "City of Watauga",
+        "estimated_cost": 8667.52,
+        "deposit": 6600.0
+      },
+      {
+        "name": "City of Westworth Village",
+        "estimated_cost": 6196.87,
+        "deposit": 4700.0
+      },
+      {
+        "name": "Crowley ISD",
+        "estimated_cost": 18851.25,
+        "deposit": 14200.0
+      },
+      {
+        "name": "Eagle Mountain-Saginaw ISD",
+        "estimated_cost": 11446.97,
+        "deposit": 8600.0
+      },
+      {
+        "name": "Fort Worth ISD",
+        "polls": 4.45,
+        "estimated_cost": 41779.85,
+        "deposit": 31400.0
+      },
+      {
+        "name": "Grapevine-Colleyville ISD",
+        "estimated_cost": 18935.3,
+        "deposit": 14300.0
+      },
+      {
+        "name": "Hurst-Euless-Bedford ISD",
+        "polls": 2.5,
+        "estimated_cost": 31727.9,
+        "deposit": 23800.0
+      },
+      {
+        "name": "Keller ISD",
+        "polls": 3.83,
+        "estimated_cost": 36708.1,
+        "deposit": 27600.0
+      },
+      {
+        "name": "Kennedale ISD",
+        "polls": 0.33,
+        "estimated_cost": 6266.54,
+        "deposit": 4700.0
+      },
+      {
+        "name": "Lewisville ISD",
+        "polls": 0.0,
+        "estimated_cost": 400.0,
+        "deposit": 300.0
+      },
+      {
+        "name": "Mansfield ISD",
+        "estimated_cost": 33562.4,
+        "deposit": 25200.0
+      },
+      {
+        "name": "Northwest ISD",
+        "polls": 2.33,
+        "estimated_cost": 23393.0,
+        "deposit": 17600.0
+      },
+      {
+        "name": "Tarrant Regional Water District",
+        "polls": 47.87,
+        "estimated_cost": 276334.93,
+        "deposit": 207300.0
+      },
+      {
+        "name": "Tarrant County College",
+        "polls": 10.12,
+        "estimated_cost": 68834.94,
+        "deposit": 51700.0
+      },
+      {
+        "name": "Town of Edgecliff Village",
+        "estimated_cost": 3915.62,
+        "deposit": 3000.0
+      },
+      {
+        "name": "Town of Flower Mound",
+        "polls": 0.0,
+        "estimated_cost": 400.0,
+        "deposit": 300.0
+      }
+    ],
+    "check_number": 140437,
+    "check_amount": 7100.0,
+    "check_date": "2019-03-29",
+    "raw_text": "ay ma ee NVOICENO. | Check No. 140437\naamooie |rcsens er AMOUNT\nTotal: $7,100.00\n(oan0s2079\u00e2\u20ac\u201d $7,100.00\nSeven Thousand One Hundred and 00/100 Dollars\nTARRANT COUNTY ELECTIONS\nADMINISTRATION Tene ee ae\n100 E. WEATHERFORD STREET\nROOM 506 Chile) Rha euro\nFORT WORTH, TX 76196-0103\n\nHello |\nlocran t SentyShkctions\nPlease Val Send the\nrap +0 Amanda Jawbs\n) (Ndude With the\nS19 ned Contact. \u00e2\u20ac\u201d\nThanks!\nRan ba?\nbatch OZ AUG\n\nand if the amount of an authority's total obligation exceeds the amount deposited, the authority shall pay to the Elections\nAdministrator the balance due within 30 days after the receipt of the final invoice from the Elections Administrator. However, if\nthe amount of the authority's total obligation is less than the amount deposited, the Elections Administrator shall refund to the\nauthority the excess amount paid within 30 days after the final costs are calculated.\nThe total estimated obligation and required deposit for each participating authority under the terms of this agreement shall be\nas follows:\nPi Actua # | Billed # | Estimated | Deposit __\n|PoliticalSubdivision \u00e2\u20ac\u201d\u00e2\u20ac\u201dSs\u00e2\u20ac\u201d\u00e2\u20ac\u201d\u00e2\u20ac\u201d\u00e2\u20ac\u201d\u00e2\u20ac\u201dS\u00e2\u20ac\u201d~d|_=SCS\u00c3\u00a9Ptis\u00e2\u20ac\u2122, ={|_\u00e2\u20ac\u0153~Polls\u00e2\u20ac\u2122 | Cost_\u00e2\u20ac\u201d| ~~ Due\nI  (\n[CARROLLISD TCO S$ (9,329.23 | $7,000.00 _\n[CIMYOFBEDFORD (et 943373 |G 710000\n1\n0.33\n/HURST-EULESS-BEDFORDISD \u00e2\u20ac\u02dc| _\u00e2\u20ac\u201d\u00e2\u20ac\u201d9i|_2.50| $ 31,727.90 | $ 23,600.00 _|\nFLEWISVILLEISD | OS 400.00 | $ 300.00\n|NORTHWESTISD | | 2.33] $ 23,393.00 | $ 17,600.00 _\n|TOWNOFFLOWERMOUND [| 1 { 0.00] $ 400.00 | $ 300.00\nJoint Election Agreement and Contract for Election Services --- Page 7\n. EA Initials a Rep Initials\n\n",
+    "ocr_notes": {
+      "heb_isd_deposit": "Pass-1 OCR (400 DPI) read dollar sign 23,600; four subsequent OCR passes at 600 DPI/contrast=2.0 consistently read dollar sign 23,800. Updated to dollar sign 23,800.",
+      "entity_extraction": "Pass-3 strip-scan OCR at 600 DPI with contrast=2.0 identified 41 entities (up from 6 in original extraction). Entity costs may have minor OCR errors in last digits.",
+      "colleyville_grapevine_note": "City of Colleyville and City of Grapevine both OCR as dollar sign 9,485.98 estimated cost; coincidence possible given similar voter counts"
+    }
+  }
+}

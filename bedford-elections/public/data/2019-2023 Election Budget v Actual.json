@@ -1,0 +1,55 @@
+{
+  "metadata": {
+    "source_file": "2019-2023 Election Budget v Actual.pdf",
+    "document_type": "budget_vs_actual",
+    "election_years": [
+      2019,
+      2020,
+      2021,
+      2022,
+      2023
+    ],
+    "pages": 1,
+    "extraction_method": "ocr_tesseract_400dpi_contrast1.5"
+  },
+  "data": {
+    "gl_account": "101.10.12-8308",
+    "account_name": "GENERAL FUND.GENERAL GOVERNMENT.CITY SECRETARY-ELECTIONS",
+    "classification": "CONTRACTUAL SERVICES",
+    "source_url": "https://logos-app-22.bedfordtx.gov/nwerp/FinancialManagement/GLAccounts/GLInquiry.aspx",
+    "captured_date": "2026-02-25",
+    "fiscal_years": [
+      {
+        "year": 2019,
+        "adopted_budget": 11750.0,
+        "amended_budget": 11750.0,
+        "actual": 7922.26
+      },
+      {
+        "year": 2020,
+        "adopted_budget": 13750.0,
+        "amended_budget": 13750.0,
+        "actual": 279.08
+      },
+      {
+        "year": 2021,
+        "adopted_budget": 12080.0,
+        "amended_budget": 12080.0,
+        "actual": 28049.63
+      },
+      {
+        "year": 2022,
+        "adopted_budget": 12750.0,
+        "amended_budget": 12750.0,
+        "actual": 38091.57
+      },
+      {
+        "year": 2023,
+        "adopted_budget": 10750.0,
+        "amended_budget": 10750.0,
+        "actual": 43.0
+      }
+    ],
+    "raw_text": "2/25/26, 9:53 AM G/L Account: 101.10.12-8308 (GENERAL FUND.GENERAL GOVERNMENT.CITY SECRETARY-ELECTIONS)\nChart By Account v\n101.10.12-8308 (GENERAL FUND.GENERAL GOVERNMENT.CITY SECRETARY-ELECTIONS)\nClassification CONTRACTUAL SERVICES\n5 Year Trend Analysis by Account\n$38,091.57\n$30,473.26\n$22,654.94\n$15,236.63\n$/ 616.31\n$0.00\n2019 20270 2021 2022 20273\n#» Adopted a Amended a Actual\nPL 20019 2020 2021 2022 2023\n|| Adopted $11,750.00] $13,750.00] $12,080.00} $12,750.00] $10,750.00\nL] Amended $11,750.00} $13,750.00} $12,080.00} $12,750.00] $10,750.00\n$7,922.26] $279.08] $28,049.63] $38,091.57| $43.00\nhttps://logos-app-22.bedfordtx.gov/nwerp/FinancialManagement/GLAccounts/GLInquiry.aspx?fromcrumb=0 1/1\n\n"
+  }
+}
